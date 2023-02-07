@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+:root {
+    --footer-text-color:white;
+    --footer-contacts-form-text-color:rgb(113, 120,136)
+}
+
+footer {
+    background-image: url(../img/footer/footer_background.png);
+}
