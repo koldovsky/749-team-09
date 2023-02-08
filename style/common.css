@@ -7,6 +7,8 @@
 }
 
 :root {
+    --font-title: 'Montserrat', sans-serif;
+    --font-description:  'Varela', sans-serif;
     --footer-text-color:white;
     --footer-contacts-form-text-color:rgb(113, 120,136)
 }
