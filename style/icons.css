@@ -1,23 +1,18 @@
 .footer__social-media-twitter {
     width: 26px;
     height: 26px;
-    background-size: 0;
     fill: white;
 }
 
 .footer__social-media-facebook {
     width: 26px;
-    height: 26px;
-    background-size: 0;
+    height: 26px; 
     fill: white;
-
 }
 
 .footer__social-media-instagram {
     width: 26px;
     height: 26px;
-    background-size: 0;
     fill: white;
-
 }
 
