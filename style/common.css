@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Varela&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box ;
+    box-sizing: border-box;
 }
 
 :root {
+    --font-title: 'Montserrat', sans-serif;
+    --font-description:  'Varela', sans-serif;
     --footer-text-color:white;
     --footer-contacts-form-text-color:rgb(113, 120,136)
 }
 
+h2 {
+    font-family: var(--font-title);
+    font-size: 34px;
+}
+
 footer {
-    background-image: url(../img/footer/footer_background.png);
+    /*background-image:url(../img/footer/footer_background.png), linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)); is not working*/
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+
 }
