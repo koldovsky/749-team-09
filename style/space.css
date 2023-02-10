@@ -1,0 +1,66 @@
+.your__space {
+    min-width: 320px;
+    padding-top: 85px;
+    padding-bottom: 90px;
+    text-align: center;
+    z-index: 1;
+}
+
+.space__title {
+    color: rgb(225, 225, 225);
+    font-size: 34px;
+    font-family: var(--font-title);
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 40.8px;
+    text-align: center;
+    vertical-align: baseline;
+    overflow-wrap: break-word;
+
+}
+
+.space__divider {
+    width: 60px;
+    height: 4px;
+    background-color: rgb(225, 225, 225);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.space__invite {
+    margin-top: 15px;
+    color: rgb(225, 225, 225);
+    font-family: var(--font-description);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 31.5px;
+    overflow-wrap: break-word;
+    letter-spacing: normal;
+    max-width: 561.55px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.space__link {
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: #f55d4a;
+    border-style: solid;
+    vertical-align: baseline;
+    background-color: #f55d4a;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    color: #fff;
+
+}
+
+.button {
+    margin-top: 50px;
+}
