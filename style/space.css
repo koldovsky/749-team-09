@@ -1,13 +1,27 @@
-.your__space {
+.space__offer {
+    background: linear-gradient(#07070cb1, #0e0534e0), url(../img/space_team/space_background.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-width: 320px;
+    min-height: 547.213px;
     padding-top: 85px;
     padding-bottom: 90px;
+    padding-right: 24px;
+    padding-left: 24px;
     text-align: center;
-    z-index: 1;
+}
+
+@media (min-width: 453px) {
+    .space__offer {
+        min-height: 443.413px;
+    }
 }
 
 .space__title {
     color: rgb(225, 225, 225);
+    padding-bottom: 15px;
     font-size: 34px;
     font-family: var(--font-title);
     font-weight: 600;
@@ -29,6 +43,7 @@
 
 .space__invite {
     margin-top: 15px;
+    margin-bottom: 50px;
     color: rgb(225, 225, 225);
     font-family: var(--font-description);
     font-size: 18px;
@@ -43,24 +58,20 @@
 }
 
 .space__link {
-    border-width: 1px;
-    border-radius: 25px;
-    border-color: #f55d4a;
-    border-style: solid;
-    vertical-align: baseline;
-    background-color: #f55d4a;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    cursor: pointer;
     text-decoration: none;
-    display: flex;
-    position: relative;
-    color: #fff;
+    color: rgb(225, 225, 225);
+    font-family: var(--font-title);
+    font-size: 13.2px;
+    font-weight: 500;
 
 }
 
-.button {
-    margin-top: 50px;
+.button__style {
+    padding: 1.25rem 2.25rem;
+    line-height: 21.12px;
+    border: none;
+    border-radius: 10rem;
+    border-width: 1px;
+    background-color: #f55d4a;
+    cursor: pointer;
 }
