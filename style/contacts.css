@@ -1,7 +1,12 @@
+@media (min-width: 320px){
 h2 {
     padding-bottom: 15px;
 }
 .contacts {
+    max-width: 1200px;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
     padding: 90px 0 90px 0;
 }
 .contacts__header-under-line{
@@ -29,27 +34,40 @@ font-weight: 400;
     font-size: 22px;
     font-family: var(--font-title);
 }
+.contacts__schedule-container{
+    display: flex;
+    flex-direction: column;
+}
 .contacts__location {
-    width: 272px;
-    padding: 35px 43px 35px 43px;
+    width: 58%;
+    padding: 35px 0px 35px 0px;
     margin: auto;
     color: var(--footer-text-color);
 }
 .contacts__schedule-duration{
     margin-top: 20px;
     margin-bottom: 16px;
+    font-family: 'Varela', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
 }
 iframe{
-    width: 186px;
+    width: 100%;
     height: 304px;
-    margin: auto;
 }
+.contacts__location-map{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px; 
+}
+
 .contacts__form{
     width: 85%;
+    margin: auto;
+    margin-top: 50px;
     padding-top: 39px;
     padding-bottom: 39px;
     border-radius: 8px;
-    margin: auto;
     background-color: white;
 }
 .contacts__form-header{
@@ -65,6 +83,7 @@ iframe{
     margin-top: 22px;
     color:var(--footer-contacts-form-text-color);
     font-family: 'Varela', sans-serif;
+    text-align: center;
     font-size: 16px;
 }
 .contacts__form-input-label{
@@ -87,6 +106,32 @@ iframe{
     background-color: rgba(28, 31, 41, 0.12);
     border-width: 0;
 }
-@media (min-width: 500px){
+.contacts__form-input-submit{
+    width: 69%;
+    margin: auto;
+    display: block;
+    margin-top: 56px;
+    padding:14px 30px 14px 30px;
+    border-radius: 25px;
+    color:var(--footer-text-color);
+    background-color: rgb(86, 108, 213);
+    border-width: 0;
+}
+}
+@media (min-width: 768px){
+    .contacts {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contacts__schedule-container{
+        flex-direction: row;
+    }
+    .contacts__location{
+        width: 44%;
+        margin: 15px;
+    }
+    .contacts__form{
+        width: 44%;
+    }
 
 }
