@@ -19,7 +19,7 @@
 
 .button:hover svg {
     border-color: white;
-    !important background-color: white;
+    background-color: white;
     fill: #1c1f29;
     transition: 0.4s;
 }
