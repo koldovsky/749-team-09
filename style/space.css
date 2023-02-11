@@ -4,13 +4,13 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
     min-width: 320px;
     min-height: 547.213px;
     padding-top: 85px;
     padding-bottom: 90px;
     padding-right: 24px;
     padding-left: 24px;
-    text-align: center;
 }
 
 @media (min-width: 453px) {
@@ -20,7 +20,7 @@
 }
 
 .space__title {
-    color: rgb(225, 225, 225);
+    color: var(--footer-text-color);
     padding-bottom: 15px;
     font-size: 34px;
     font-family: var(--font-title);
@@ -30,20 +30,19 @@
     text-align: center;
     vertical-align: baseline;
     overflow-wrap: break-word;
-
 }
 
 .space__invite {
     margin-top: 15px;
     margin-bottom: 50px;
-    color: rgb(225, 225, 225);
+    color: var(--footer-text-color);
     font-family: var(--font-description);
     font-size: 18px;
     font-weight: 700;
     line-height: 31.5px;
+    max-width: 561.55px;
     overflow-wrap: break-word;
     letter-spacing: normal;
-    max-width: 561.55px;
     margin-left: auto;
     margin-right: auto;
 
@@ -51,19 +50,21 @@
 
 .space__link {
     text-decoration: none;
-    color: rgb(225, 225, 225);
+    color: var(--footer-text-color);
     font-family: var(--font-title);
     font-size: 13.2px;
     font-weight: 500;
-
+    padding: 1.00rem;
 }
 
 .button__style {
-    padding: 1.25rem 2.25rem;
+    background-color: var(--divider-bg-main-color);
+    cursor: pointer;
+    margin: 0 auto;
+    display: inline-block;
     line-height: 21.12px;
-    border: none;
+    width: 224.038px;
+    height: 53.1125px;
     border-radius: 10rem;
     border-width: 1px;
-    background-color: #f55d4a;
-    cursor: pointer;
 }
