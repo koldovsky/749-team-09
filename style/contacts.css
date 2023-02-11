@@ -19,11 +19,6 @@ footer {
     color: var(--footer-text-color);
 }
 
-.contacts__header {
-    font-family: var(--font-title);
-    font-size: var(--footer-contacts-header-font-size);
-}
-
 .contacts__header-under-line {
     margin-top: 15px;
     width: 60px;
