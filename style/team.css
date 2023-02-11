@@ -41,7 +41,7 @@
     font-weight: 600;
     text-align: center;
     line-height: 34.908px;
-    color: rgb(41, 45, 58);
+    color: var(--text-content-color);
     word-wrap: break-word;
 }
 
@@ -56,5 +56,4 @@
     font-size: 14px;
     font-weight: 600;
     line-height: 19.6px;
-
 }
