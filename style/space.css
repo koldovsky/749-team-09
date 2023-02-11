@@ -70,3 +70,11 @@
     border-radius: 10rem;
     border-width: 1px;
 }
+.button__style:hover {
+    background-color: var(--footer-text-color);
+    transition: 0.2s;
+}
+.space__link:hover {
+    color: var(--footer-form-title-color);
+    transition: 0.4s;
+}
