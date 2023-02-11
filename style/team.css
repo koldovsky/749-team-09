@@ -5,14 +5,11 @@
 
 .team__title {
     text-align: center;
+
 }
 
-.team__divider {
-    width: 60px;
-    height: 4px;
-    background-color: #f55d4a;
-    margin-left: auto;
-    margin-right: auto;
+.team__title-text {
+    padding-bottom: 15px;
 }
 
 .team__wrapper {
@@ -23,7 +20,7 @@
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px 15px;
+    padding: 24px 24px;
     grid-template-columns: 1fr;
     display: grid;
     row-gap: 30px;

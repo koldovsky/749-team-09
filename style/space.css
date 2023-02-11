@@ -33,14 +33,6 @@
 
 }
 
-.space__divider {
-    width: 60px;
-    height: 4px;
-    background-color: rgb(225, 225, 225);
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .space__invite {
     margin-top: 15px;
     margin-bottom: 50px;
