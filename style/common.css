@@ -14,6 +14,11 @@
     --footer-contacts-form-text-color: rgb(113, 120, 136)
 }
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
 h2 {
     font-family: var(--font-title);
     font-size: 34px;
