@@ -10,6 +10,8 @@
 
     --font-title: 'Montserrat', sans-serif;
     --font-description: 'Varela', sans-serif;
+    --divider-bg-main-color: #FF5D4A;
+    --divider-bg-secondary-color: #FFF;
     --footer-text-color: white;
     --footer-contacts-form-text-color: rgb(113, 120, 136);
     --footer-under-line-bg-color: white;
@@ -31,4 +33,17 @@
 h2 {
     font-family: var(--font-title);
     font-size: 34px;
+}
+
+.divider {
+    width: 60px;
+    height: 4px;
+}
+
+.divider--main {
+   background-color:  var(--divider-bg-main-color);
+}
+
+.divider--secondary {
+    background-color:  var(--divider-bg-secondary-color);
 }
