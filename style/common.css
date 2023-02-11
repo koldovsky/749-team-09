@@ -10,8 +10,19 @@
 
     --font-title: 'Montserrat', sans-serif;
     --font-description: 'Varela', sans-serif;
+    --divider-bg-main-color: #FF5D4A;
+    --divider-bg-secondary-color: #FFF;
     --footer-text-color: white;
-    --footer-contacts-form-text-color: rgb(113, 120, 136)
+    --footer-contacts-form-text-color: rgb(113, 120, 136);
+    --footer-under-line-bg-color: white;
+    --footer-form-title-color: black;
+    --footer-form-btn-bg-color: rgb(86, 108, 213);
+    --footer-form-btn-bg-color-hover: black;
+    --footer-form-bg-color: white;
+    --footer-contacts-header-font-size: 2.2rem;
+    --footer-contacts-header-font-size-full-screen: 2.8rem;
+    --footer-contacts-title-font-size: 1.4rem;
+    --footer-contacts-font-size: 1rem;
 }
 
 .container {
@@ -21,13 +32,18 @@
 
 h2 {
     font-family: var(--font-title);
-    font-size: 34px;
+    font-size: var(--footer-contacts-header-font-size);
 }
 
-footer {
-    /*background-image:url(../img/footer/footer_background.png), linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)); is not working*/
-    background-color: black;
-    background-size: cover;
-    background-position: center;
+.divider {
+    width: 60px;
+    height: 4px;
+}
 
+.divider--main {
+   background-color:  var(--divider-bg-main-color);
+}
+
+.divider--secondary {
+    background-color:  var(--divider-bg-secondary-color);
 }
