@@ -9,11 +9,14 @@
 :root {
     --font-title: 'Montserrat', sans-serif;
     --font-description: 'Varela', sans-serif;
+    --h2-font-size-mobile: 2.2rem;
+    --h2-font-size-tablet: 2.4rem;
+    --h2-font-size-desktop: 2.8rem; 
     --accent-color: #FF5D4A;
     --secondary-color: #fff;
     --dark-accent-color: #556cd5;
     --link-hover-color: #2c7591;
-    --text-color: #292d3a; 
+    --text-color: #292d3a;
     --box-shadow-color: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
     --footer-text-color: white; /* TO REMOVE */
     --footer-contacts-form-text-color: rgb(113, 120, 136); /* TO REMOVE */
@@ -23,9 +26,6 @@
     --footer-form-btn-bg-color-hover: black; /* TO REMOVE */
     --footer-form-bg-color: white; /* TO REMOVE */
     --dark-accent-text-color: #556cd5; /* TO REMOVE */
-    --h2-font-size-mobile: 2.2rem;
-    --h2-font-size-tablet: 2.4rem;
-    --h2-font-size-desktop: 2.8rem;
     --h3-contacts-title-font-size: 1.4rem; /* TO REMOVE */
     --h3-contacts-font-size: 1rem; /* TO REMOVE */
 }
