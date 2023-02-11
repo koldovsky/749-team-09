@@ -39,6 +39,8 @@ h2 {
     display: inline-block;
     width: 60px;
     height: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .divider--main {
