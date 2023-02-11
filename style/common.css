@@ -7,25 +7,27 @@
 }
 
 :root {
-
     --font-title: 'Montserrat', sans-serif;
     --font-description: 'Varela', sans-serif;
-    --divider-bg-main-color: #FF5D4A;
-    --divider-bg-secondary-color: #ffffff;
-    --footer-text-color: white;
-    --footer-contacts-form-text-color: rgb(113, 120, 136);
-    --footer-under-line-bg-color: white;
-    --footer-form-title-color: black;
-    --footer-form-btn-bg-color: rgb(86, 108, 213);
-    --footer-form-btn-bg-color-hover: black;
-    --footer-form-bg-color: white;
-    --box-schadow-color: rgb(136 140 133 / 5%);
-    --text-content-color: rgb(41, 45, 58);
-    --dark-accent-text-color: rgb(85,108,213);
-    --footer-contacts-header-font-size: 2.2rem;
-    --footer-contacts-header-font-size-full-screen: 2.8rem;
-    --footer-contacts-title-font-size: 1.4rem;
-    --footer-contacts-font-size: 1rem;
+    --accent-color: #FF5D4A;
+    --secondary-color: #fff;
+    --dark-accent-color: #556cd5;
+    --link-hover-color: #2c7591;
+    --text-color: #292d3a; 
+    --box-shadow-color: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
+    --footer-text-color: white; /* TO REMOVE */
+    --footer-contacts-form-text-color: rgb(113, 120, 136); /* TO REMOVE */
+    --footer-under-line-bg-color: white; /* TO REMOVE */
+    --footer-form-title-color: black; /* TO REMOVE */
+    --footer-form-btn-bg-color: #566cd5; /* TO REMOVE */
+    --footer-form-btn-bg-color-hover: black; /* TO REMOVE */
+    --footer-form-bg-color: white; /* TO REMOVE */
+    --dark-accent-text-color: #556cd5; /* TO REMOVE */
+    --h2-font-size-mobile: 2.2rem;
+    --h2-font-size-tablet: 2.4rem;
+    --h2-font-size-desktop: 2.8rem;
+    --h3-contacts-title-font-size: 1.4rem; /* TO REMOVE */
+    --h3-contacts-font-size: 1rem; /* TO REMOVE */
 }
 
 .container {
@@ -45,9 +47,9 @@ h2 {
 }
 
 .divider--main {
-   background-color:  var(--divider-bg-main-color);
+   background-color:  var(--accent-color);
 }
 
 .divider--secondary {
-    background-color:  var(--divider-bg-secondary-color);
+    background-color:  var(--secondary-color);
 }
