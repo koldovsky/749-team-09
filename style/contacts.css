@@ -1,34 +1,50 @@
-h2 {
-    padding-bottom: 15px;
+footer {
+    background-image: linear-gradient(to bottom, rgba(40, 42, 50, 0.6), rgba(0, 0, 0, 1)), url(../img/footer/footer_background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 .contacts {
-    max-width: 1200px;
     margin: auto;
+    padding: 90px 0 90px 0;
     display: flex;
     flex-direction: column;
-    padding: 90px 0 90px 0;
+}
+
+.contacts__location {
+    width: 75%;
+    padding-bottom: 35px;
+    margin: auto;
+    color: var(--footer-text-color);
+}
+
+.contacts__header {
+    font-family: var(--font-title);
+    font-size: var(--footer-contacts-header-font-size);
 }
 
 .contacts__header-under-line {
+    margin-top: 15px;
     width: 60px;
-    background-color: white;
+    background-color: var(--footer-under-line-bg-color);
     height: 4px;
 }
 
 .contacts__address {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .contacts__address-header {
-    font-size: 22px;
+    font-size: var(--footer-contacts-title-font-size);
     font-weight: 600;
+    font-family: var(--font-title);
 }
 
 .contacts__address-description {
     margin-top: 20px;
-    font-family: 'Varela', sans-serif;
-    font-size: 16px;
+    font-family: var(--font-description);
+    font-size: var(--footer-contacts-font-size);
     font-weight: 400;
 }
 
@@ -37,7 +53,7 @@ h2 {
 }
 
 .contacts__schedule-header {
-    font-size: 22px;
+    font-size: var(--footer-contacts-title-font-size);
     font-family: var(--font-title);
 }
 
@@ -46,24 +62,12 @@ h2 {
     flex-direction: column;
 }
 
-.contacts__location {
-    width: 58%;
-    padding: 35px 0px 35px 0px;
-    margin: auto;
-    color: var(--footer-text-color);
-}
-
 .contacts__schedule-duration {
     margin-top: 20px;
     margin-bottom: 16px;
-    font-family: 'Varela', sans-serif;
-    font-size: 16px;
+    font-family: var(--font-description);
+    font-size: var(--footer-contacts-font-size);
     font-weight: 700;
-}
-
-iframe {
-    width: 100%;
-    height: 304px;
 }
 
 .contacts__location-map {
@@ -72,22 +76,28 @@ iframe {
     margin-top: 30px;
 }
 
+iframe {
+    width: 100%;
+    height: 304px;
+}
+
 .contacts__form {
-    width: 85%;
+    width: 90%;
     margin: auto;
     margin-top: 50px;
-    padding-top: 39px;
-    padding-bottom: 39px;
+    padding: 39px 0 39px 0;
     border-radius: 8px;
-    background-color: white;
+    background-color: var(--footer-form-bg-color);
 }
 
 .contacts__form-header {
     width: 69%;
     margin: auto;
-    font-size: 22px;
+    padding-bottom: 15px;
+    font-size: var(--footer-contacts-title-font-size);
+    font-family: var(--font-title);
     text-align: center;
-    color: black;
+    color: var(--footer-form-title-color);
 }
 
 .contacts__form-description {
@@ -97,7 +107,7 @@ iframe {
     color: var(--footer-contacts-form-text-color);
     font-family: 'Varela', sans-serif;
     text-align: center;
-    font-size: 16px;
+    font-size: var(--footer-contacts-font-size);
 }
 
 .contacts__form-input-label {
@@ -105,8 +115,8 @@ iframe {
     margin: auto;
     display: block;
     color: var(--footer-contacts-form-text-color);
-    font-family: 'Varela', sans-serif;
-    font-size: 16px;
+    font-family: var(--font-description);
+    font-size: var(--footer-contacts-font-size);
     margin-top: 20px;
 }
 
@@ -117,7 +127,7 @@ iframe {
     margin-top: 12px;
     padding: 14px 30px 14px 30px;
     border-radius: 25px;
-    color: black;
+    color: var(--footer-title-bg-color);
     background-color: rgba(28, 31, 41, 0.12);
     border-width: 0;
 }
@@ -125,13 +135,16 @@ iframe {
 .contacts__form-input-submit {
     width: 69%;
     margin: auto;
-    display: block;
     margin-top: 56px;
+    display: block;
     padding: 14px 30px 14px 30px;
     border-radius: 25px;
     color: var(--footer-text-color);
-    background-color: rgb(86, 108, 213);
+    background-color: var(--footer-form-btn-bg-color);
     border-width: 0;
+}
+.contacts__form-input-submit:hover{
+    background-color: var(--footer-form-btn-bg-color-hover);
 }
 
 
@@ -141,17 +154,47 @@ iframe {
         justify-content: center;
     }
 
-    .contacts__schedule-container {
-        flex-direction: row;
+    .contacts__location {
+        width: 40%;
+        padding-top: 40px;
     }
 
-    .contacts__location {
-        width: 44%;
-        margin: 15px;
+    .contacts__header {
+        font-family: var(--font-title);
+        font-size: var(--footer-contacts-header-font-size-full-screen);
+    }
+
+    .contacts__header-under-line {
+        margin-top: 25px;
+    }
+
+    .contacts__schedule-container {
+        flex-direction: row;
+        margin: 20px 0 20px 0;
+    }
+
+    .contacts__schedule-duration {
+        margin: 0 60px 0 0;
+        width: 30%;
     }
 
     .contacts__form {
         width: 44%;
+        margin-top: 0;
+        padding: 40px 0 150px 0;
+        border-radius: 8px;
+        background-color: white;
+    }
+
+    .contacts__form-description {
+        margin-bottom: 30px;
+    }
+    .contacts__form-input-label {
+        margin-top: 25px;  
+    }
+    
+    .contacts__form-input {
+        margin-top: 20px;
     }
 
 }

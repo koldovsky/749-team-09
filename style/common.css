@@ -11,23 +11,19 @@
     --font-title: 'Montserrat', sans-serif;
     --font-description: 'Varela', sans-serif;
     --footer-text-color: white;
-    --footer-contacts-form-text-color: rgb(113, 120, 136)
+    --footer-contacts-form-text-color: rgb(113, 120, 136);
+    --footer-under-line-bg-color: white;
+    --footer-form-title-color: black;
+    --footer-form-btn-bg-color: rgb(86, 108, 213);
+    --footer-form-btn-bg-color-hover: black;
+    --footer-form-bg-color: white;
+    --footer-contacts-header-font-size: 34px;
+    --footer-contacts-header-font-size-full-screen: 44px;
+    --footer-contacts-title-font-size:22px;
+    --footer-contacts-font-size:16px;
 }
 
 .container {
     max-width: 1200px;
     margin: auto;
-}
-
-h2 {
-    font-family: var(--font-title);
-    font-size: 34px;
-}
-
-footer {
-    background-image:url(../img/footer/footer_background.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-
 }
