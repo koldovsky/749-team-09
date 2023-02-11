@@ -144,42 +144,45 @@
         <section class="your__space space">
             <div class="space__offer">
                 <h2 class="space__title">Find Your Space!</h2>
-                <div class="space__divider"></div>
-                <p class="space__invite">Our community offers a wide variety of shared spaces and private
-                    offices to help your business grow and prosper.</p>
-                <a href="#form" class="space__link button__style">MAKE A BOOKING</a>
+                <div class="divider divider--secondary"></div>
+                <div class="space__invite-wrapper">
+                    <p class="space__invite">Our community offers a wide variety of shared spaces and private</p>
+                    <p class="space__invite"> offices to help your business grow and prosper.</p>
+                    <a href="#form" class="space__link button__style">MAKE A BOOKING</a>
+                </div>
             </div>
         </section>
         <section class="team">
             <div class="team__title">
-                <h2>Our Team</h2>
-                <div class="team__divider"></div>
+                <h2 class="team__title-text">Our Team</h2>
+                <div class="divider divider--main"></div>
             </div>
-            <ul class="team__wrapper">
-                <li class="team__wrapper-item">
+            <div class="team__wrapper">
+                <div class="team__wrapper-item">
                     <div class="team__ceo">
 
-                        <img class="team__ceo-photo" src="img/space_team/ceo.jpeg" alt="ceo photo">
-                        <h3 class="team__ceo-name">Andrew Shimmer</h3>
-                        <span class="team__ceo-position">CEO</span>
+                        <img class="team__ceo-photo photo" src="img/space_team/ceo.jpg" alt="ceo photo">
+                        <h3 class="team__ceo-name name">Andrew Shimmer</h3>
+                        <span class="team__ceo-position position">CEO</span>
 
                     </div>
-                </li>
-                <li class="team__wrapper-item">
+                </div>
+                <div class="team__wrapper-item">
                     <div class="team__marketing">
-                        <img class="team__marketing-photo" src="img/space_team/marketing.jfif" alt="marketing photo">
-                        <h3 class="team__marketing-name">Ann Maisner</h3>
-                        <span class="team__marketing-position">Marketing Director</span>
+                        <img class="team__marketing-photo photo" src="img/space_team/marketing.jpg"
+                            alt="marketing photo">
+                        <h3 class="team__marketing-name name">Ann Maisner</h3>
+                        <span class="team__marketing-position position">Marketing Director</span>
                     </div>
-                </li>
-                <li class="team__wrapper-item">
+                </div>
+                <div class="team__wrapper-item">
                     <div class="team__manager">
-                        <img class="team__manager-photo" src="img/space_team/manager.jfif" alt="manager photo">
-                        <h3 class="team__manager-name">Tomas Abbar</h3>
-                        <span class="team__manager-position">Product Manager</span>
+                        <img class="team__manager-photo photo" src="img/space_team/manager.jpg" alt="manager photo">
+                        <h3 class="team__manager-name name">Tomas Abbar</h3>
+                        <span class="team__manager-position position">Product Manager</span>
                     </div>
-                </li>
-            </ul>
+                </div>
+            </div>
 
         </section>
         <!-- Section 4. Our team. Developed by Yuliia Pylypenko. End -->
@@ -250,21 +253,30 @@
         <!-- Section 5. What our membership includs. Developed by Yana Melnichenko. End -->
 
         <!-- Section 7. Our Partners & Friends. Developed by Vasylenko Yurii. Start -->
-        <section class="partners">
+        <section class="partners container">
             <div class="partners__title">
                 <h2>Our Partners & Friends</h2>
-                <div class="divider"></div>
+                <div class="divider divider--main"></div>
             </div>
             <div class="partners__list">
-                <div class="partners__item-samsung"><img src="/img/partners/samsung.png" alt="Samsung Logo"></div>
-                <div class="partners__item-google"><img src="/img/partners/google.png" alt="Google Logo"></div>
-                <div class="partners__item-microsoft"><img src="/img/partners/microsoft.png" alt="Microsoft Logo"></div>
-                <div class="partners__item-consul"><img src="/img/partners/consul.png" alt="Consul risk managment Logo">
+                <div class="partners__item-samsung">
+                    <img src="img/partners/samsung.svg" alt="Samsung Logo">
                 </div>
-                <div class="partners__item-traveladvisors"><img src="/img/partners/traveladvisors.png"
-                        alt="Travel Advisors Logo">
+                <div class="partners__item-google">
+                    <img src="img/partners/google.svg" alt="Google Logo">
                 </div>
-                <div class="partners__item-pepsi"><img src="/img/partners/pepsi.png" alt="Pepsi Logo"></div>
+                <div class="partners__item-microsoft">
+                    <img src="img/partners/microsoft.svg" alt="Microsoft Logo">
+                </div>
+                <div class="partners__item-consul">
+                    <img src="img/partners/consul.svg" alt="Consul risk managment Logo">
+                </div>
+                <div class="partners__item-traveladvisors">
+                    <img src="img/partners/traveladvisors.svg" alt="Travel Advisors Logo">
+                </div>
+                <div class="partners__item-pepsi">
+                    <img src="img/partners/pepsi.svg" alt="Pepsi Logo">
+                </div>
             </div>
         </section>
         <!-- Section 7. Our Partners & Friends. Developed by Vasylenko Yurii. End -->
@@ -276,36 +288,49 @@
                 <div class="divider"></div>
             </div>
             <div class="blog-coworking">
-                <img class="blog-coworking__photo" src="img/main__blog/officeworker.jfif" alt="officeworker"
-                    width="347">
-                <h3 class="blog-coworking__topic">How to Find the Best Coworking Space</h3>
-                <span class="blog-coworking__text-info">Posted by Frank Sole on May 14, 2018</span>
-                <p class="blog-coworking__text-content">
-                    If you are a businessman or freelancer and don't have a space to work at, the best solution is to
-                    think about finding a reliable coworking place, your home away from home.
-                </p>
-                <a href="#" class="blog-coworking__link">Learn More</a>
+                <div class="blog-coworking__photo-cover">
+                    <img class="blog-coworking__photo blog-info" src="img/main__blog/officeworker.jfif" alt="officeworker">
+                </div>
+                <div class="blog-coworking__text">
+                    <h3 class="blog-coworking__topic">How to Find the Best Coworking Space</h3>
+                    <span class="blog-coworking__text-info">Posted by Frank Sole on May 14, 2018</span>
+                    <p class="blog-coworking__text-content">
+                        If you are a businessman or freelancer and don't have a space to work at, the best solution is
+                        to
+                        think about finding a reliable coworking place, your home away from home.
+                    </p>
+                    <a href="#" class="blog-coworking__link">Learn More</a>
+                </div>
             </div>
+        
             <div class="blog-freshfood">
-                <img class="blog-freshfood__photo" src="img/main__blog/foodinoffice.jfif" alt="foodinoffice">
-                <h3 class="blog-freshfood__topic">Fresh Food from Nearby Kiosk </h3>
-                <span class="blog-freshfood__text-info">Posted by Frank Sole on May 11, 2018</span>
-                <p class="blog-freshfood__text-content">
-                    Our kiosk offers you fresh and delicious food at your fingertips. We operate not far from your
-                    office. Our menu includes a variety of dishes to meet any taste buds. Come try our gourmet food!
-                </p>
-                <a href="#" class="blog-freshfood__link">Learn More</a>
+                <div class="blog-freshfood__photo-cover">
+                    <img class="blog-freshfood__photo blog-info" src="img/main__blog/foodinoffice.jfif" alt="foodinoffice">
+                </div>
+                <div class="blog-freshfood__text">
+                    <h3 class="blog-freshfood__topic">Fresh Food from Nearby Kiosk </h3>
+                    <span class="blog-freshfood__text-info">Posted by Frank Sole on May 11, 2018</span>
+                    <p class="blog-freshfood__text-content">
+                        Our kiosk offers you fresh and delicious food at your fingertips. We operate not far from your
+                        office. Our menu includes a variety of dishes to meet any taste buds. Come try our gourmet food!
+                    </p>
+                    <a href="#" class="blog-freshfood__link">Learn More</a>
+                </div>
             </div>
             <div class="blog-coworking-space">
-                <img class="blog-coworking-space__photo" src="img/main__blog/corworkingspace.jfif" alt="corworkingspace"
-                    width="347">
-                <h3 class="blog-coworking-space__topic">5 Reasons to Join Coworking Space</h3>
-                <span class="blog-coworking-space__text-info">Posted by Frank Sole on May 05, 2018</span>
-                <p class="blog-coworking-space__text-content">
-                    When you work from home you gradually get used to your daily routine and don't get fresh air which
-                    can significantly reduce your creative thinking and productivity.
-                </p>
-                <a href="#" class="blog-coworking-space__link">Learn More</a>
+                <div class="blog-coworking-space__photo-cover">
+                    <img class="blog-coworking-space__photo blog-info" src="img/main__blog/corworkingspace.jfif" alt="corworkingspace">
+                </div>
+                <div class="blog-coworking-space__text">
+                    <h3 class="blog-coworking-space__topic">5 Reasons to Join Coworking Space</h3>
+                    <span class="blog-coworking-space__text-info">Posted by Frank Sole on May 05, 2018</span>
+                    <p class="blog-coworking-space__text-content">
+                        When you work from home you gradually get used to your daily routine and don't get fresh air
+                        which
+                        can significantly reduce your creative thinking and productivity.
+                    </p>
+                    <a href="#" class="blog-coworking-space__link">Learn More</a>
+                </div>
             </div>
             <div class="blog-button">
                 <form action="#">
@@ -319,7 +344,7 @@
         <section class="testimonials" id="testimonials">
             <div class="testimonials__title">
                 <h2>Testimonials</h2>
-                <div class="divider"></div>
+                <div class="divider divider--main"></div>
             </div>
             <div class="testimonials__carousel carousel">
                 <article class="carousel__slide">
@@ -355,7 +380,7 @@
     </main>
     <footer>
         <!-- Section 9. Contacts form. Developed by Yurii Smolii. Start -->
-        <section class="contacts" id="contacts">
+        <section class="contacts container" id="contacts">
             <div class="contacts__location">
                 <h2 class="contacts__header">Contacts</h2>
                 <div class="contacts__header-under-line"></div>
