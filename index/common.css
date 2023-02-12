@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Varela&display=swap');
+@import url('index.css/cooperation.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-title: 'Montserrat', sans-serif;
+    --font-description: 'Varela', sans-serif;
+    --h2-font-size-mobile: 2.2rem;
+    --h2-font-size-tablet: 2.4rem;
+    --h2-font-size-desktop: 2.8rem; 
+    --accent-color: #FF5D4A;
+    --secondary-color: #fff;
+    --dark-accent-color: #556cd5;
+    --link-hover-color: #2c7591;
+    --text-color: #292d3a;
+    --box-shadow-color: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
+    --footer-text-color: white; /* TO REMOVE */
+    --footer-contacts-form-text-color: rgb(113, 120, 136); /* TO REMOVE */
+    --footer-under-line-bg-color: white; /* TO REMOVE */
+    --footer-form-title-color: black; /* TO REMOVE */
+    --footer-form-btn-bg-color: #566cd5; /* TO REMOVE */
+    --footer-form-btn-bg-color-hover: black; /* TO REMOVE */
+    --footer-form-bg-color: white; /* TO REMOVE */
+    --dark-accent-text-color: #556cd5; /* TO REMOVE */
+    --h3-contacts-title-font-size: 1.4rem; /* TO REMOVE */
+    --h3-contacts-font-size: 1rem; /* TO REMOVE */
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    font-family: var(--font-title);
+    font-size: var(--footer-contacts-header-font-size);
+}
+
+.divider {
+    display: inline-block;
+    width: 60px;
+    height: 4px;
+}
+
+.divider--main {
+   background-color:  var(--accent-color);
+}
+
+.divider--secondary {
+    background-color:  var(--secondary-color);
+}
