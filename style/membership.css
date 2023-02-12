@@ -1,0 +1,35 @@
+.membership{
+    background: url(../img/cooperation/membership-background.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(45, 44, 44, 0.796);
+    background-blend-mode: multiply;
+    background-size: cover;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 100px;
+}
+
+.membership_title{
+    text-align: center;
+}
+
+.membership-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding: 30px;
+}
+
+.membership-container-item{
+    background-color: #1c1f29;
+    opacity: 0.7;
+    width:21vw; 
+    height:21vw;
+    margin: 1vw;
+}
+
+.membership-container-item-content{
+    padding: 10%;
+}
