@@ -1,5 +1,5 @@
 footer {
-    background-image: linear-gradient(to bottom, rgba(70, 96, 201, 0.6), rgba(0, 0, 0, 1)), url(../img/footer/footer_background.png);
+    background-image: var(--footer-gradient), url(../img/footer/footer_background.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -16,14 +16,11 @@ footer {
     width: 75%;
     padding-bottom: 35px;
     margin: auto;
-    color: var(--footer-text-color);
+    color: var(--secondary-color);
 }
 
 .contacts__header-under-line {
     margin-top: 15px;
-    width: 60px;
-    background-color: var(--footer-under-line-bg-color);
-    height: 4px;
 }
 
 .contacts__address {
@@ -31,25 +28,18 @@ footer {
 }
 
 .contacts__address-header {
-    font-size: var(--footer-contacts-title-font-size);
     font-weight: 600;
-    font-family: var(--font-title);
 }
 
 .contacts__address-description {
     margin-top: 20px;
     font-family: var(--font-description);
-    font-size: var(--footer-contacts-font-size);
+    font-size: var(--main-text-size);
     font-weight: 400;
 }
 
 .contacts__schedule {
     margin-top: 20px;
-}
-
-.contacts__schedule-header {
-    font-size: var(--footer-contacts-title-font-size);
-    font-family: var(--font-title);
 }
 
 .contacts__schedule-container {
@@ -61,7 +51,7 @@ footer {
     margin-top: 20px;
     margin-bottom: 16px;
     font-family: var(--font-description);
-    font-size: var(--footer-contacts-font-size);
+    font-size: var(--main-text-size);
     font-weight: 700;
 }
 
@@ -82,36 +72,33 @@ iframe {
     margin-top: 50px;
     padding: 39px 0 39px 0;
     border-radius: 8px;
-    background-color: var(--footer-form-bg-color);
+    background-color: var(--secondary-color);
+    color: var(--contacts-form-text-color);
 }
 
 .contacts__form-header {
     width: 69%;
     margin: auto;
     padding-bottom: 15px;
-    font-size: var(--footer-contacts-title-font-size);
-    font-family: var(--font-title);
     text-align: center;
-    color: var(--footer-form-title-color);
+    color: var(--main-color);
 }
 
 .contacts__form-description {
     width: 69%;
     margin: auto;
     margin-top: 22px;
-    color: var(--footer-contacts-form-text-color);
     font-family: 'Varela', sans-serif;
     text-align: center;
-    font-size: var(--footer-contacts-font-size);
+    font-size: var(--main-text-size);
 }
 
 .contacts__form-input-label {
     width: 69%;
     margin: auto;
     display: block;
-    color: var(--footer-contacts-form-text-color);
     font-family: var(--font-description);
-    font-size: var(--footer-contacts-font-size);
+    font-size: var(--main-text-size);
     margin-top: 20px;
 }
 
@@ -122,9 +109,13 @@ iframe {
     margin-top: 12px;
     padding: 14px 30px 14px 30px;
     border-radius: 25px;
-    color: var(--footer-title-bg-color);
-    background-color: rgba(28, 31, 41, 0.12);
-    border-width: 0;
+    color: var(--main-color);
+    background-color: var(--contacts-filds-color);
+    border-width: 0px;
+}
+
+.contacts__form-input:focus {
+    outline: none;
 }
 
 .contacts__form-input-submit {
@@ -134,13 +125,13 @@ iframe {
     display: block;
     padding: 14px 30px 14px 30px;
     border-radius: 25px;
-    color: var(--footer-text-color);
-    background-color: var(--footer-form-btn-bg-color);
+    color: var(--secondary-color);
+    background-color: var(--dark-accent-color);
     border-width: 0;
 }
 
 .contacts__form-input-submit:hover {
-    background-color: var(--footer-form-btn-bg-color-hover);
+    background-color: var(--main-color);
     cursor: pointer;
 }
 
@@ -158,7 +149,7 @@ iframe {
 
     .contacts__header {
         font-family: var(--font-title);
-        font-size: var(--footer-contacts-header-font-size-full-screen);
+        font-size: var(--h2-font-size-desktop);
     }
 
     .contacts__header-under-line {
@@ -180,7 +171,7 @@ iframe {
         margin-top: 0;
         padding: 40px 0 150px 0;
         border-radius: 8px;
-        background-color: white;
+        background-color: var(--secondary-color);
     }
 
     .contacts__form-description {
