@@ -1,0 +1,41 @@
+.cooperation{
+    padding: 85px 10% 50px 10%;
+}
+
+.cooperation_title{
+    background: white;
+    text-align: center;
+}
+
+.space__title-black {
+    color:black;
+    font-size: 34px;
+    font-family: var(--font-title);
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 40.8px;
+    text-align: center;
+    vertical-align: baseline;
+    overflow-wrap: break-word;
+}
+
+.cooperation__container{
+    display:flex;
+    flex-direction: row;
+    -ms-flex-align: stretch;
+    padding: 32px;
+    margin: 0 15px;
+    border-bottom: solid 1px #b5b5b5;
+}
+
+.cooperation__container_item--img{
+    margin-right: 20px;
+}
+.cooperation__container_item--text {
+    margin-top: 15px;
+    color: black;
+    font-family: 'Varela', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 31.5px;
+}
