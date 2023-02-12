@@ -141,6 +141,7 @@ iframe {
 
 .contacts__form-input-submit:hover {
     background-color: var(--footer-form-btn-bg-color-hover);
+    cursor: pointer;
 }
 
 
