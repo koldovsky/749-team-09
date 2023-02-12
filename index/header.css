@@ -1,0 +1,63 @@
+header{
+    background-image: var(--header-gradient), url(/img/header/home.png);
+    background-size: cover;
+    background-position: center;
+    height: 680px;
+}
+.header__contacts{
+    display: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.header__menu{
+    display: none;
+}
+.header__name{
+    padding-left: 20px;
+    font-size: 26px;
+    font-family: var(--font-title);
+    font-weight: bold;
+    color: var(--secondary-color);
+    text-decoration: none;
+    box-sizing: border-box;    
+}
+.header__title-color{
+    color: var(--accent-color);
+}
+.header__title{
+    padding: 100px 0 0 0;
+    font-family: var(--font-description);
+    font-size: 56px;
+    text-align: center;
+    color: var(--secondary-color);
+    
+}
+.header__text{
+    padding: 20px 0 0 0;
+    font-family: var(--font-description);
+    color: var(--secondary-color);
+    font-size: 18px;
+    text-align: center;
+}
+.header__member-button{
+    border-radius: 20px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    margin: 30px 40px 40px 50px;
+    padding: 16px 32px;
+    width: 215px;
+    height: 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: var(--font-title);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.header__member-button:hover{
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+}
