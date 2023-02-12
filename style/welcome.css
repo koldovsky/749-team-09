@@ -1,0 +1,55 @@
+
+
+.welcome_station{
+    background: url(https://res2.weblium.site/res/5cb5ed415c879c002458deb0/5cb7301f7b0ced0023a0ee52.webp);
+    padding-top: 90px;
+    padding-bottom: 90px; 
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+}
+.station__photo{
+    width: 272px;
+    height: 84px;
+        
+}
+.station__title{
+    font-size: var(--h2-font-size-mobile);
+    font-weight: 600;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+.station__text__about{
+    font-family: var(--font-description);
+    font-size: var(--main-text-size);
+    color: #717888;
+    font-size: inherit;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28.8px;
+    overflow-wrap: break-word;
+    text-align: center;
+    vertical-align: baseline;
+    margin-top: 45px;
+    
+    
+   
+}
+.social-networks{
+padding-top: 31px;
+padding-bottom: 27px;
+text-align: center;
+margin-top: 30px;
+fill: #556cd5;
+fill-rule: nonzero;
+}
+
+.station_button-about{
+    text-decoration-color: rgb(85, 108, 213);
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 1;
+}
+ 
