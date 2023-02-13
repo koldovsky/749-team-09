@@ -1,5 +1,5 @@
 header {
-    background-image: var(--header-gradient), url(/img/header/home.png);
+    background-image: var(--header-gradient), url(img/header/home.png);
     background-size: cover;
     background-position: center;
     height: 680px;
