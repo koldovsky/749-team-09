@@ -1,5 +1,5 @@
 .blog-info {
-    width: 314.4px;
+    width: 272px;
     height: 100%;
     border-radius: 14px;
     display: flex;
@@ -9,17 +9,21 @@
     background: url(../img/main__blog/backgroungofblog.png);
     background-attachment: fixed;
     background-size: cover;
-    padding: 85px 0px 90px;
+    padding: 85px 24px 90px;
+    background-size: cover;
 }
 
 .blog__title {
     text-align: center;
     padding: 0px 0px 35px;
+    font-size: 34px;
 }
 
 .blog-coworking__topic {
     font-family: var(--font-title);
     padding: 0px 0px 20px;
+    line-height: 31.999px;
+    font-size: 22px;
 }
 
 .blog-coworking__text {
@@ -35,23 +39,30 @@
 .blog-coworking__text-info {
     font-family: var(--font-title);
     color: var(--dark-accent-color);
+    line-height: 19.6px;
+    font-size: 14px;
 }
 
 .blog-coworking__text-content {
     font-family: var(--font-description);
     color: var(--contacts-form-text-color);
     padding: 20px 0px 30px;
+    line-height: 28.8px;
 }
 
 .blog-coworking__link {
     font-family: var(--font-title);
     color: var(--main-blog-color-link);
     text-decoration: none;
+    line-height: 17.28px;
+    font-size: 10.8px;
 }
 
 .blog-freshfood__topic {
     font-family: var(--font-title);
     padding: 0px 0px 20px;
+    line-height: 31.999px;
+    font-size: 22px;
 }
 
 .blog-freshfood__photo {
@@ -66,23 +77,30 @@
 .blog-freshfood__text-info {
     font-family: var(--font-title);
     color: var(--dark-accent-color);
+    line-height: 19.6px;
+    font-size: 14px;
 }
 
 .blog-freshfood__text-content {
     font-family: var(--font-description);
     color: var(--contacts-form-text-color);
     padding: 20px 0px 30px;
+    line-height: 28.8px;
 }
 
 .blog-freshfood__link {
     font-family: var(--font-title);
     color: var(--main-blog-color-link);
     text-decoration: none;
+    line-height: 17.28px;
+    font-size: 10.8px;
 }
 
 .blog-coworking-space__topic {
     font-family: var(--font-title);
     padding: 0px 0px 20px;
+    line-height: 31.999px;
+    font-size: 22px;
 }
 
 .blog-coworking-space__photo {
@@ -94,20 +112,36 @@
 .blog-coworking-space__text-info {
     font-family: var(--font-title);
     color: var(--dark-accent-color);
+    line-height: 19.6px;
+    font-size: 14px;
 }
 
 .blog-coworking-space__text-content {
     font-family: var(--font-description);
     color: var(--contacts-form-text-color);
     padding: 20px 0px 30px;
+    line-height: 28.8px;
 }
 
 .blog-coworking-space__link {
     font-family: var(--font-title);
     color: var(--main-blog-color-link);
     text-decoration: none;
+    line-height: 17.28px;
+    font-size: 10.8px;
 }
 
 .blog-button {
     padding: 45px 0px 0px;
+    text-align: center;
+}
+
+.blog-button__text {
+    font-family: var(--font-title);
+    font-size: 12px;
+}
+
+
+@media (min-width: 768px) {
+
 }
