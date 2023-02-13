@@ -47,5 +47,5 @@
     margin-top: 30px;
     font-weight: 500;
     font-size: 12px;
-    /* border-radius: 1; */
+    /* border-radius: 1; only 0 possible, use px, %, etc.*/
 }
