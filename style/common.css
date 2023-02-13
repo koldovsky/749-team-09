@@ -24,6 +24,7 @@
     --box-shadow-color: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
     --contacts-form-text-color: rgb(113, 120, 136);
     --contacts-filds-color: rgba(28, 31, 41, 0.12);
+    --header-gradient:radial-gradient(rgba(85, 83, 112, 0.402), rgba(0, 0, 0, 0.58));
     --footer-gradient:linear-gradient(to bottom, rgba(70, 96, 201, 0.6), rgba(0, 0, 0, 1));
     --dark-accent-text-color: #556cd5; /* TO REMOVE */
     --h3-contacts-title-font-size: 1.4rem; /* TO REMOVE */
