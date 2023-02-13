@@ -139,8 +139,16 @@
 .blog-button__text {
     font-family: var(--font-title);
     font-size: 12px;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 30px;
+    padding: 14px 30px;
+    color: var(--secondary-color);
 }
 
+.blog-button__text:hover {
+    background-color: var(--dark-accent-color);
+}
 
 @media (min-width: 768px) {
 
