@@ -2,7 +2,6 @@
 @import url(control.css);
 @import url(header.css);
 @import url(contacts.css);
-@import url(icons.css);
 @import url(partners.css);
 @import url(blog.css);
 @import url(testimonials.css);
@@ -10,3 +9,4 @@
 @import url(team.css);
 @import url(our_membership.css);
 @import url(welcome.css);
+@import url(footer.css);
