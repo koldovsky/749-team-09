@@ -1,0 +1,64 @@
+.membership {
+    background: url(../img/cooperation/membership-background.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(40, 40, 57, 0.796);
+    background-blend-mode: multiply;
+    background-size: cover;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 60px;
+}
+
+.membership_title {
+    text-align: center;
+}
+
+.membership_title_header {
+    color: white;
+    font-size: 34px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 40.8px;
+    text-align: center;
+    vertical-align: baseline;
+    overflow-wrap: break-word;
+}
+
+.membership-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.membership-container-item {
+    background-color: #1c1f29;
+    opacity: 0.7;
+    width: 18vw;
+    height: 17vw;
+    margin: 1vw;
+}
+
+.membership-container-item-content {
+    padding: 10%;
+    min-height: 17vw;
+    min-width: 17vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.membership_container-item-caption {
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 2rem;
+    text-align: center;
+    vertical-align: baseline;
+    overflow-wrap: break-word;
+}
