@@ -12,11 +12,11 @@
     --font-description: 'Varela', sans-serif;
     --h2-font-size-mobile: 2.2rem;
     --h2-font-size-tablet: 2.4rem;
-    --h2-font-size-desktop: 2.8rem; 
+    --h2-font-size-desktop: 2.8rem;
     --h3-font-size: 1.37rem;
     --main-text-size: 1rem;
     --accent-color: #FF5D4A;
-    --main-color:#000;
+    --main-color: #000;
     --secondary-color: #fff;
     --dark-accent-color: #556cd5;
     --link-hover-color: #2c7591;
@@ -24,24 +24,18 @@
     --box-shadow-color: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
     --contacts-form-text-color: rgb(113, 120, 136);
     --contacts-filds-color: rgba(28, 31, 41, 0.12);
-    --footer-gradient:linear-gradient(to bottom, rgba(70, 96, 201, 0.6), rgba(0, 0, 0, 1));
-    --dark-accent-text-color: #556cd5; /* TO REMOVE */
-    --h3-contacts-title-font-size: 1.4rem; /* TO REMOVE */
-    --h3-contacts-font-size: 1rem; /* TO REMOVE */
+    --footer-gradient: linear-gradient(to bottom, rgba(70, 96, 201, 0.6), rgba(0, 0, 0, 1));
+    --dark-accent-text-color: #556cd5;
+    /* TO REMOVE */
+    --h3-contacts-title-font-size: 1.4rem;
+    /* TO REMOVE */
+    --h3-contacts-font-size: 1rem;
+    /* TO REMOVE */
 }
 
 .container {
     max-width: 1200px;
     margin: auto;
-}
-
-h2 {
-    font-family: var(--font-title);
-    font-size: var(--h2-font-size-mobile); /* For mobile */
-}
-h3 {
-    font-family: var(--font-title);
-    font-size: var(--h3-font-size); 
 }
 
 .divider {
@@ -51,9 +45,27 @@ h3 {
 }
 
 .divider--main {
-   background-color:  var(--accent-color);
+    background-color: var(--accent-color);
 }
 
 .divider--secondary {
-    background-color:  var(--secondary-color);
+    background-color: var(--secondary-color);
+}
+
+h2 {
+    font-family: var(--font-title);
+    font-size: var(--h2-font-size-mobile);
+    /* For mobile */
+}
+
+h3 {
+    font-family: var(--font-title);
+    font-size: var(--h3-font-size);
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: var(--h2-font-size-desktop);
+        /* For desctop */
+    }
 }
