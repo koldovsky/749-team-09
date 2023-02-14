@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Varela&display=swap');
 @import url('cooperation.css');
+/* Replace to index.css pls */
 
 * {
     margin: 0;
@@ -9,22 +10,27 @@
 
 :root {
     --font-title: 'Montserrat', sans-serif;
-    --font-description: 'Varela', sans-serif;
+    --font-common: 'Varela', sans-serif;
+    /* --font-discription */
+    --common-font-size: 1rem;
     --h2-font-size-mobile: 2.2rem;
     --h2-font-size-tablet: 2.4rem;
     --h2-font-size-desktop: 2.8rem;
     --h3-font-size: 1.37rem;
-    --main-text-size: 1rem;
+    --h4-font-size: 0.875rem;
     --accent-color: #FF5D4A;
     --main-color: #000;
     --main-blog-color-link: rgb(181, 181, 181);
+    /* why main */
     --secondary-color: #fff;
     --dark-accent-color: #556cd5;
     --link-hover-color: #2c7591;
-    --text-color: #292d3a;
+    --title-color: #292d3a;
+    /* NEED TO CHANGE --text-color */
+    --text-color: rgb(114, 120, 136);
+    /* NEED TO CHANGE --contacts-form-text-color: #717888; */
     --footer-color: #1c1f29;
     --box-shadow-color: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
-    --contacts-form-text-color: rgb(113, 120, 136);
     --contacts-filds-color: rgba(28, 31, 41, 0.12);
     --header-gradient: radial-gradient(rgba(85, 83, 112, 0.402), rgba(0, 0, 0, 0.58));
     --footer-gradient: linear-gradient(to bottom, rgba(70, 96, 201, 0.6), rgba(0, 0, 0, 1));
@@ -39,6 +45,30 @@
 .container {
     max-width: 1200px;
     margin: auto;
+    padding: 0 24px;
+}
+
+h2 {
+    font-family: var(--font-title);
+    font-size: var(--h2-font-size-mobile);
+    /* For mobile */
+}
+
+h3 {
+    font-family: var(--font-title);
+    font-size: var(--h3-font-size);
+}
+
+h4 {
+    font-family: var(--font-title);
+    font-size: var(--h4-font-size);
+    color: var(--dark-accent-color);
+}
+
+p {
+    font-family: var(--font-common);
+    font-size: var(--common-font-size);
+    color: var(--text-color);
 }
 
 .divider {
@@ -67,6 +97,13 @@ h3 {
 }
 
 @media (min-width: 768px) {
+    h2 {
+        font-size: var(--h2-font-size-tablet);
+        /* For desctop */
+    }
+}
+
+@media (min-width: 1024px) {
     h2 {
         font-size: var(--h2-font-size-desktop);
         /* For desctop */
