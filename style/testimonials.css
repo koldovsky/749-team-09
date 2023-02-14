@@ -1,0 +1,16 @@
+.testimonials {
+    text-align: center;
+}
+
+.testimonials__title {
+    margin-bottom: 45px;
+}
+
+.testimonials__carousel .carousel__slide-img {
+    max-width: 120px;
+    margin: auto;
+}
+
+.testimonials__carousel .carousel__slide-img > img {
+    border-radius: 50%;
+}
