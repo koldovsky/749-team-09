@@ -1,11 +1,12 @@
-header{
-    background-image: var(--header-gradient), url(/img/header/home.png);
+header {
+    background-image: var(--header-gradient), url(../img/header/home.png);
     background-size: cover;
     background-position: center;
     height: 680px;
 
 }
-.header__contacts{
+
+.header__contacts {
     margin: auto;
     padding-left: 20px;
     display: none;
@@ -14,108 +15,128 @@ header{
     color: var(--secondary-color);
     font-size: 12px;
 }
-.header__address{
+
+.header__address {
     display: none;
 
 }
-.header__number{
+
+.header__number {
     font-family: var(--font-description);
     display: none;
     color: var(--secondary-color);
     padding-left: 460px;
 }
-.header__media{
+
+.header__media {
     display: none;
     padding-left: 400px;
 }
-.header__media-facebook{
+
+.header__media-facebook {
     padding-right: 5px;
 }
-.header__media-instagram{
+
+.header__media-instagram {
     padding-right: 5px;
 }
-.header__nav{
+
+.header__nav {
     font-family: var(--font-description);
     color: var(--secondary-color);
 }
-.header__name{
+
+.header__name {
     padding-left: 20px;
     font-size: 26px;
     font-family: var(--font-title);
     font-weight: bold;
     color: var(--secondary-color);
     text-decoration: none;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
-.header__menu{
+
+.header__menu {
     display: none;
     align-items: center;
     font-size: 13px;
     padding: 0px 100px 0px 50px;
 }
-.header__menu-about{
+
+.header__menu-about {
     font-family: var(--font-description);
     color: var(--secondary-color);
     text-decoration: none;
     padding-left: 350px;
     padding-right: 23px;
 }
-.header__menu-plans{
+
+.header__menu-plans {
     font-family: var(--font-description);
     color: var(--secondary-color);
     text-decoration: none;
     padding-right: 23px;
 }
-.header__menu-events{
+
+.header__menu-events {
     font-family: var(--font-description);
     color: var(--secondary-color);
     text-decoration: none;
     padding-right: 23px;
 }
-.header__menu-testimonial{
+
+.header__menu-testimonial {
     font-family: var(--font-description);
     color: var(--secondary-color);
     text-decoration: none;
     padding-right: 23px;
 }
-.header__menu-spaces{
+
+.header__menu-spaces {
     font-family: var(--font-description);
     color: var(--secondary-color);
     text-decoration: none;
     padding-right: 23px;
 }
-.header__menu-blog{
+
+.header__menu-blog {
     font-family: var(--font-description);
     color: var(--secondary-color);
     text-decoration: none;
     padding-right: 23px;
 }
-.header__menu-contacts{
+
+.header__menu-contacts {
     font-family: var(--font-description);
     color: var(--secondary-color);
     text-decoration: none;
 }
-.header__face{
+
+.header__face {
     flex-direction: row;
     text-align: center;
 }
-.header__title-color{
+
+.header__title-color {
     color: var(--accent-color);
 }
-.header__title{
+
+.header__title {
     padding: 100px 0 0 0;
     font-family: var(--font-description);
     font-size: 66px;
     color: var(--secondary-color);
-    
+
 }
-.header__text{
+
+.header__text {
     font-family: var(--font-description);
     color: var(--secondary-color);
     font-size: 13px;
     margin: 32px 0 32px 0;
 }
-.header__member-button{
+
+.header__member-button {
     border-radius: 20px;
     margin: 32px 0 32px 0;
     border: none;
@@ -132,49 +153,45 @@ header{
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
-.header__member-button:hover{
+
+.header__member-button:hover {
     background-color: var(--accent-color);
     color: var(--secondary-color);
 }
+
 @media(min-width: 800px) {
-    .header__nav{
+    .header__nav {
         flex-direction: column;
-        display:flex;
+        display: flex;
     }
-}
-@media(min-width: 800px) {
-    .header__contacts{
+
+    .header__contacts {
         flex-direction: row;
-        display:flex;
+        display: flex;
     }
-}
-@media(min-width: 800px) {
-    .header__address{
+
+    .header__address {
         flex-direction: row;
-        display:flex;
+        display: flex;
     }
-}
-@media(min-width: 800px) {
-    .header__number{
+
+    .header__number {
         flex-direction: row;
-        display:flex;
+        display: flex;
     }
-}
-@media(min-width: 800px) {
-    .header__media{
+
+    .header__media {
         flex-direction: row;
-        display:flex;
+        display: flex;
     }
-}
-@media(min-width: 800px) {
-    .header__nav{
+
+    .header__nav {
         flex-direction: row;
-        display:flex;
+        display: flex;
     }
-}
-@media(min-width: 800px) {
-    .header__menu{
+
+    .header__menu {
         flex-direction: row;
-        display:flex;
+        display: flex;
     }
 }

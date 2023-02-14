@@ -149,7 +149,6 @@ iframe {
 
     .contacts__header {
         font-family: var(--font-title);
-        font-size: var(--h2-font-size-desktop);
     }
 
     .contacts__header-under-line {
