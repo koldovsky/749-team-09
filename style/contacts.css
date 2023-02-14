@@ -34,7 +34,8 @@ footer {
 .contacts__address-description {
     margin-top: 20px;
     font-family: var(--font-description);
-    font-size: var(--main-text-size);
+    font-size: var(--common-font-size);
+    color: var(--secondary-color);
     font-weight: 400;
 }
 
@@ -51,7 +52,7 @@ footer {
     margin-top: 20px;
     margin-bottom: 16px;
     font-family: var(--font-description);
-    font-size: var(--main-text-size);
+    font-size: var(--common-font-size);
     font-weight: 700;
 }
 
@@ -73,7 +74,7 @@ iframe {
     padding: 39px 0 39px 0;
     border-radius: 8px;
     background-color: var(--secondary-color);
-    color: var(--contacts-form-text-color);
+    color: var(--text-color);
 }
 
 .contacts__form-header {
@@ -90,7 +91,7 @@ iframe {
     margin-top: 22px;
     font-family: 'Varela', sans-serif;
     text-align: center;
-    font-size: var(--main-text-size);
+    font-size: var(--common-font-size);
 }
 
 .contacts__form-input-label {
@@ -98,7 +99,7 @@ iframe {
     margin: auto;
     display: block;
     font-family: var(--font-description);
-    font-size: var(--main-text-size);
+    font-size: var(--common-font-size);
     margin-top: 20px;
 }
 
