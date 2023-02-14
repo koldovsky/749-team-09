@@ -5,7 +5,7 @@
     padding: 8px;
     line-height: 0;
     border-radius: 50%;
-    background-color: var(---fotter-color);
+    background-color: var(--footer-color);
     border-color: var(--secondary-color);
     cursor: pointer;
 }
@@ -19,6 +19,6 @@
 .button:hover .footer__social-media-icons-item-svg {
     border-color: var(--secondary-color);
     background-color: var(--secondary-color);
-    fill: var(--fotter-color);
+    fill: var(--footer-color);
     transition: 0.4s;
 }
