@@ -2,35 +2,37 @@ header {
     background-image: var(--header-gradient), url(../img/header/home.png);
     background-size: cover;
     background-position: center;
-    height: 680px;
-
+    height: 1200px;
+    box-sizing: border-box;
 }
 
 .header__contacts {
-    margin: auto;
-    padding-left: 20px;
     display: none;
     flex-direction: row;
     font-family: var(--font-description);
     color: var(--secondary-color);
     font-size: 12px;
+    text-align: center;
 }
 
 .header__address {
     display: none;
-
+    padding-left: 260px;
+    padding-top: 8px;
 }
 
 .header__number {
     font-family: var(--font-description);
     display: none;
     color: var(--secondary-color);
-    padding-left: 460px;
+    padding-top: 8px;
+    padding-left: 444px;
 }
 
 .header__media {
     display: none;
-    padding-left: 400px;
+    padding-left: 395px;
+    padding-top: 8px;
 }
 
 .header__media-facebook {
@@ -47,20 +49,18 @@ header {
 }
 
 .header__name {
-    padding-left: 20px;
-    font-size: 26px;
+    font-size: 20px;
     font-family: var(--font-title);
     font-weight: bold;
     color: var(--secondary-color);
     text-decoration: none;
-    box-sizing: border-box;
 }
 
 .header__menu {
     display: none;
     align-items: center;
-    font-size: 13px;
-    padding: 0px 100px 0px 50px;
+    font-size: 15px;
+    padding: 40px 10px 0px 0px;
 }
 
 .header__menu-about {
@@ -124,7 +124,7 @@ header {
 .header__title {
     padding: 100px 0 0 0;
     font-family: var(--font-description);
-    font-size: 66px;
+    font-size: 60px;
     color: var(--secondary-color);
 
 }
@@ -132,13 +132,13 @@ header {
 .header__text {
     font-family: var(--font-description);
     color: var(--secondary-color);
-    font-size: 13px;
-    margin: 32px 0 32px 0;
+    font-size: 20px;
+    margin: 32px 0 50px 0;
 }
 
 .header__member-button {
     border-radius: 20px;
-    margin: 32px 0 32px 0;
+    margin: 50px 0 50px 0;
     border: none;
     background-color: var(--secondary-color);
     color: var(--main-color);
@@ -158,40 +158,146 @@ header {
     background-color: var(--accent-color);
     color: var(--secondary-color);
 }
-
+.header__end{
+    margin: 50px 0 20px 15px;
+    flex-direction: column;
+}
+.header__offices{
+    width: 270px;
+    height: 170px;
+    border-radius: 15px;
+    background:rgb(255,255,255);
+    background: rgba(21, 20, 35, 0.7);
+    margin: 50px 0 20px 0;
+}
+.header__number-offices{
+    padding-top: 20px;
+    font-family: var(--font-title);
+    font-size: 60px;
+    color: var(--accent-color);
+}
+.header__offices-text{
+    font-family: var(--font-description);
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+.header__rooms{
+    width: 270px;
+    height: 170px;
+    border-radius: 15px;
+    background:rgb(255,255,255);
+    background: rgba(21, 20, 35, 0.7);
+    margin: 50px 0 20px 0;
+}
+.header__number-rooms{
+    padding-top: 20px;
+    font-family: var(--font-title);
+    font-size: 60px;
+    color: var(--accent-color);
+}
+.header__rooms-text{
+    font-family: var(--font-description);
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+.header__descs{
+    width: 270px;
+    height: 170px;
+    border-radius: 15px;
+    background:rgb(255,255,255);
+    background: rgba(21, 20, 35, 0.7);
+    margin: 50px 0 20px 0;
+}
+.header__number-descs{
+    padding-top: 20px;
+    font-family: var(--font-title);
+    font-size: 60px;
+    color: var(--accent-color);
+}
+.header__descs-text{
+    font-family: var(--font-description);
+    color: var(--secondary-color);
+    font-size: 18px;
+}
 @media(min-width: 800px) {
+    header{
+        box-sizing: border-box;
+        height: 920px;
+    }
+    .header__name{
+        padding-left: 260px;
+        padding-top: 40px;
+        font-size: 32px;
+    }
     .header__nav {
-        flex-direction: column;
         display: flex;
     }
 
     .header__contacts {
-        flex-direction: row;
         display: flex;
     }
 
     .header__address {
-        flex-direction: row;
         display: flex;
     }
 
     .header__number {
-        flex-direction: row;
         display: flex;
     }
 
     .header__media {
-        flex-direction: row;
         display: flex;
     }
 
     .header__nav {
-        flex-direction: row;
         display: flex;
     }
 
     .header__menu {
         flex-direction: row;
         display: flex;
+    }
+    .header__title {
+        padding: 145px 0 0 0;
+        font-family: var(--font-description);
+        font-size: 80px;
+        color: var(--secondary-color);
+    }
+    .header__text{
+        font-size: 18px;
+    }
+    .header__member-button {
+        padding: 16px 50px;
+        font-size: 13px;
+    }
+    .header__end{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        padding-left: 200px;
+    }
+    .header__offices{
+        margin: 75px 30px 0 10px;
+        width: 350px;
+        height: 200px;
+    }
+    .header__number-offices{
+        padding-top: 35px;
+    }
+    .header__rooms{
+        margin: 75px 30px 0 10px;
+        width: 350px;
+        height: 200px;
+    }
+    .header__number-rooms{
+        padding-top: 35px;
+    }
+    .header__descs{
+        margin: 75px 30px 0 10px;
+        width: 350px;
+        height: 200px;
+    }
+    .header__number-descs{
+        padding-top: 35px;
     }
 }
