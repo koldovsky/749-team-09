@@ -37,13 +37,13 @@
 
 @media (min-width: 768px) {
     .team__wrapper-item {
-        max-width: 50%;
+        max-width: 70%;
     }
 }
 
 @media (min-width: 992px) {
     .team__wrapper-item {
-        max-width: 30%;
+        width: 355px;
     }
 }
 
