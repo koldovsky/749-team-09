@@ -28,6 +28,7 @@
     text-align: center;
     vertical-align: baseline;
     overflow-wrap: break-word;
+    padding-bottom: 15px;
 }
 
 @media (min-width: 768px) {
