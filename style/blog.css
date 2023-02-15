@@ -59,7 +59,7 @@
 }
 
 .blog-coworking__link:hover {
-    text-decoration:underline;
+    text-decoration: underline;
     color: var(--link-hover-color);
 }
 
@@ -68,6 +68,7 @@
     padding: 0px 0px 20px;
     line-height: 31.999px;
     font-size: 22px;
+
 }
 
 .blog-freshfood__photo {
@@ -99,7 +100,7 @@
 }
 
 .blog-freshfood__link:hover {
-    text-decoration:underline;
+    text-decoration: underline;
     color: var(--link-hover-color);
 }
 
@@ -139,7 +140,7 @@
 }
 
 .blog-coworking-space__link:hover {
-    text-decoration:underline;
+    text-decoration: underline;
     color: var(--link-hover-color);
 }
 
@@ -165,8 +166,42 @@
 @media (min-width: 768px) {
     .blog-info {
         width: 280px;
-        float: left;
-        margin: 50px 30px 90px 0px;
     }
 
+    .blog-coworking {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .blog-freshfood {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .blog-coworking-space {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .blog-coworking__photo {
+        float: left;
+        margin: 0px 0px 50px;
+    }
+
+    .blog-freshfood__photo {
+        float: left;
+        margin: 0px 0px 50px;
+    }
+
+    .blog-coworking-space__photo {
+        float: left;
+        margin: 0px 0px 50px;
+    }
+
+    .blog-link {
+        margin-left: 280px;
+    }
 }
