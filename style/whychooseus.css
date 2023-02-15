@@ -15,16 +15,22 @@
     text-align: center;
 }
 
+.whychooseus__title-divider.solid {
+    border-top: 5px solid var(--secondary-color);
+    margin: 2rem auto;
+    width: 7%;
+}
+
 .whychooseus__recommended-services {
+    padding: 0 40px 0 40px;
     background: transparent;
-    padding: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
+    gap: 30px;
     padding-bottom: 80px;
 }
 
 .whychooseus__recommended-services-item {
+    padding: 35px 0 35px 0;
     background: var(--secondary-color);
 }
 
@@ -35,6 +41,38 @@
     align-items: center;
 }
 
+.whychooseus__recommended-services-item-service-icon {
+    padding: 20px 0 20px 0;
+}
+
 .whychooseus__recommended-services-item-service-icon-svg {
+    width: 90px;
+    height: 90px;
     fill: var(--whychooseus-color-main);
+}
+
+@media (min-width: 768px) {
+    .whychooseus__recommended-services {
+        padding: 0 40px 0 40px;
+        background: transparent;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding-bottom: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .whychooseus__recommended-services-item {
+        background-size: auto;
+    }
+
+    .whychooseus__recommended-services {
+        padding: 0 40px 0 40px;
+        background: transparent;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        padding-bottom: 80px;
+    }
 }

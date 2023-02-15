@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Varela&display=swap');
 @import url('cooperation.css');
-@import url('membership.css');
 /* Replace to index.css pls */
 
 * {
@@ -48,7 +47,7 @@
 .container {
     max-width: 1200px;
     margin: auto;
-    padding: 0 24px;
+    padding: 0 40px 0 40px;
 }
 
 img {
