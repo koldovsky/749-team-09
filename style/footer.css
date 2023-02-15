@@ -25,7 +25,6 @@
 
 .footer__nav-column {
     display: grid;
-    text-align: left;
     font-family: var(--font-common);
     font-size: 107%;
     grid-gap: 10px;
@@ -44,12 +43,11 @@
     fill: var(--secondary-color);
 }
 
-.footer__social-media-icons-facebook {
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
 @media (min-width: 768px) {
+    .footer {
+        text-align: left;
+    }
+
     .footer__view {
         display: grid;
         grid-template-columns: 0.8fr 2fr 0.5fr;
@@ -73,9 +71,12 @@
 
     .footer__nav-column {
         display: grid;
-        text-align: left;
         font-family: var(--font-common);
         font-size: 107%;
+    }
+
+    .footer__nav-column-item {
+        text-align: left;
     }
 
     .footer__social-media {
