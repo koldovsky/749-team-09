@@ -1,0 +1,40 @@
+.whychooseus__background {
+    background-image: var(--whychooseus-gradient), url(../img/brownoffice.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.whychooseus__title {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.whychooseus__title-text {
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.whychooseus__recommended-services {
+    background: transparent;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding-bottom: 80px;
+}
+
+.whychooseus__recommended-services-item {
+    background: var(--secondary-color);
+}
+
+.whychooseus__recommended-services-item-service {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whychooseus__recommended-services-item-service-icon-svg {
+    fill: var(--whychooseus-color-main);
+}

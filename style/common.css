@@ -21,6 +21,7 @@
     --accent-color: #FF5D4A;
     --main-color: #000;
     --main-blog-color-link: rgb(181, 181, 181);
+    --whychooseus-color-main: rgb(85, 108, 213);
     /* why main */
     --secondary-color: #fff;
     --dark-accent-color: #556cd5;
@@ -33,6 +34,7 @@
     --box-shadow-color: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
     --contacts-filds-color: rgba(28, 31, 41, 0.12);
     --header-gradient: radial-gradient(rgba(85, 83, 112, 0.402), rgba(0, 0, 0, 0.58));
+    --whychooseus-gradient: linear-gradient(to bottom, rgba(91, 114, 211, 0.6), rgb(91, 114, 211, 1));
     --footer-gradient: linear-gradient(to bottom, rgba(37, 40, 47, 0.6), rgba(28, 31, 41, 1) 40%);
     --dark-accent-text-color: #556cd5;
     /* TO REMOVE */
