@@ -108,11 +108,23 @@ h3 {
         font-size: var(--h2-font-size-tablet);
         /* For desctop */
     }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 40px;
+    }
 }
 
 @media (min-width: 1024px) {
     h2 {
         font-size: var(--h2-font-size-desktop);
         /* For desctop */
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 40px;
     }
 }
