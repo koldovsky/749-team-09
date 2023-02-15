@@ -1,8 +1,7 @@
 .space__offer {
     background: linear-gradient(#07070cb1, #0e0534e0), url(../img/space_team/space_background.webp);
-    background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-position: 50% 90%;
     background-size: cover;
     text-align: center;
     min-width: 320px;
@@ -31,6 +30,18 @@
     overflow-wrap: break-word;
 }
 
+@media (min-width: 768px) {
+    .space__title {
+        font-size: 39px;
+    }
+}
+
+@media (min-width: 991px) {
+    .space__title {
+        font-size: 44px;
+    }
+}
+
 .space__invite-wrapper {
     min-width: 249.13px;
     max-width: 1200px;
@@ -43,7 +54,7 @@
 .space__invite {
     margin-top: 15px;
     color: var(--secondary-color);
-    font-family: var(--font-description);
+    font-family: var(--font-common);
     font-size: 18px;
     font-weight: 700;
     line-height: 31.5px;
@@ -70,10 +81,12 @@
     border-radius: 10rem;
     border-width: 1px;
 }
+
 .button__style:hover {
     background-color: var(--secondary-color);
     transition: 0.2s;
 }
+
 .space__link:hover {
     color: var(--footer-form-title-color);
     transition: 0.4s;
