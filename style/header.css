@@ -17,8 +17,6 @@ header {
 
 .header__address {
     display: none;
-    padding-left: 260px;
-    padding-top: 8px;
 }
 
 .header__number {
@@ -26,7 +24,7 @@ header {
     display: none;
     color: var(--secondary-color);
     padding-top: 8px;
-    padding-left: 444px;
+    padding-left: 420px;
 }
 
 .header__media {
@@ -54,13 +52,13 @@ header {
     font-weight: bold;
     color: var(--secondary-color);
     text-decoration: none;
+    text-align: center;
 }
 
 .header__menu {
     display: none;
     align-items: center;
     font-size: 15px;
-    padding: 40px 10px 0px 0px;
 }
 
 .header__menu-about {
@@ -159,7 +157,6 @@ header {
     color: var(--secondary-color);
 }
 .header__end{
-    margin: 50px 0 20px 15px;
     flex-direction: column;
 }
 .header__offices{
@@ -219,18 +216,18 @@ header {
     color: var(--secondary-color);
     font-size: 18px;
 }
-@media(min-width: 800px) {
+@media(min-width: 768px) {
     header{
-        box-sizing: border-box;
         height: 920px;
+        box-sizing: border-box;
     }
     .header__name{
-        padding-left: 260px;
-        padding-top: 40px;
         font-size: 32px;
+        text-align: center;
     }
     .header__nav {
         display: flex;
+        padding-top: 25px;
     }
 
     .header__contacts {
@@ -258,9 +255,9 @@ header {
         display: flex;
     }
     .header__title {
-        padding: 145px 0 0 0;
+        padding-top: 200px;
         font-family: var(--font-description);
-        font-size: 80px;
+        font-size: 100px;
         color: var(--secondary-color);
     }
     .header__text{
@@ -271,13 +268,14 @@ header {
         font-size: 13px;
     }
     .header__end{
+        padding-left: 20px;
+        padding-top: 35px;
         align-items: center;
         display: flex;
         flex-direction: row;
-        padding-left: 200px;
     }
     .header__offices{
-        margin: 75px 30px 0 10px;
+        margin: 75px 20px 0 10px;
         width: 350px;
         height: 200px;
     }
