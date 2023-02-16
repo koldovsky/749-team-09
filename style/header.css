@@ -9,7 +9,7 @@ header {
 .header__contacts {
     display: none;
     flex-direction: row;
-    font-family: var(--font-description);
+    font-family: var(--font-common);
     color: var(--secondary-color);
     font-size: 12px;
     text-align: center;
@@ -20,16 +20,16 @@ header {
 }
 
 .header__number {
-    font-family: var(--font-description);
+    font-family: var(--font-common);
     display: none;
     color: var(--secondary-color);
     padding-top: 8px;
-    padding-left: 420px;
+    margin-left: 420px;
 }
 
 .header__media {
     display: none;
-    padding-left: 395px;
+    margin-left: 395px;
     padding-top: 8px;
 }
 
@@ -42,7 +42,7 @@ header {
 }
 
 .header__nav {
-    font-family: var(--font-description);
+    font-family: var(--font-common);
     color: var(--secondary-color);
 }
 
@@ -57,55 +57,57 @@ header {
 
 .header__menu {
     display: none;
+    margin: auto;
     align-items: center;
     font-size: 15px;
+    list-style-type: none;
 }
 
 .header__menu-about {
-    font-family: var(--font-description);
+    font-family: var(--font-common);
     color: var(--secondary-color);
     text-decoration: none;
-    padding-left: 350px;
+    margin-left: 280px;
     padding-right: 23px;
 }
 
 .header__menu-plans {
-    font-family: var(--font-description);
+    font-family: var(--font-common);
     color: var(--secondary-color);
     text-decoration: none;
     padding-right: 23px;
 }
 
 .header__menu-events {
-    font-family: var(--font-description);
+    font-family: var(--font-common);
     color: var(--secondary-color);
     text-decoration: none;
     padding-right: 23px;
 }
 
 .header__menu-testimonial {
-    font-family: var(--font-description);
+    font-family: var(--font-common);
     color: var(--secondary-color);
     text-decoration: none;
     padding-right: 23px;
 }
 
 .header__menu-spaces {
-    font-family: var(--font-description);
+    font-family: var(--font-common);
     color: var(--secondary-color);
     text-decoration: none;
     padding-right: 23px;
 }
 
 .header__menu-blog {
-    font-family: var(--font-description);
+    font-family: var(--font-common);
     color: var(--secondary-color);
     text-decoration: none;
     padding-right: 23px;
 }
 
 .header__menu-contacts {
-    font-family: var(--font-description);
+    font-family: var(--font-common);
     color: var(--secondary-color);
     text-decoration: none;
 }
@@ -121,14 +123,14 @@ header {
 
 .header__title {
     padding: 100px 0 0 0;
-    font-family: var(--font-description);
+    font-family: var( --font-title);
     font-size: 60px;
     color: var(--secondary-color);
 
 }
 
 .header__text {
-    font-family: var(--font-description);
+    font-family: var(--font-common);
     color: var(--secondary-color);
     font-size: 20px;
     margin: 32px 0 50px 0;
@@ -156,75 +158,130 @@ header {
     background-color: var(--accent-color);
     color: var(--secondary-color);
 }
-.header__end{
+
+.header__end {
     flex-direction: column;
 }
-.header__offices{
+
+.header__offices {
     width: 270px;
     height: 170px;
     border-radius: 15px;
-    background:rgb(255,255,255);
+    background: rgb(255, 255, 255);
     background: rgba(21, 20, 35, 0.7);
     margin: 50px 0 20px 0;
 }
-.header__number-offices{
+
+.header__number-offices {
     padding-top: 20px;
     font-family: var(--font-title);
     font-size: 60px;
     color: var(--accent-color);
 }
-.header__offices-text{
-    font-family: var(--font-description);
+
+.header__offices-text {
+    font-family: var(--font-common);
     color: var(--secondary-color);
     font-size: 18px;
 }
-.header__rooms{
+
+.header__rooms {
     width: 270px;
     height: 170px;
     border-radius: 15px;
-    background:rgb(255,255,255);
+    background: rgb(255, 255, 255);
     background: rgba(21, 20, 35, 0.7);
     margin: 50px 0 20px 0;
 }
-.header__number-rooms{
+
+.header__number-rooms {
     padding-top: 20px;
     font-family: var(--font-title);
     font-size: 60px;
     color: var(--accent-color);
 }
-.header__rooms-text{
-    font-family: var(--font-description);
+
+.header__rooms-text {
+    font-family: var(--font-common);
     color: var(--secondary-color);
     font-size: 18px;
 }
-.header__descs{
+
+.header__descs {
     width: 270px;
     height: 170px;
     border-radius: 15px;
-    background:rgb(255,255,255);
+    background: rgb(255, 255, 255);
     background: rgba(21, 20, 35, 0.7);
     margin: 50px 0 20px 0;
 }
-.header__number-descs{
+
+.header__number-descs {
     padding-top: 20px;
     font-family: var(--font-title);
     font-size: 60px;
     color: var(--accent-color);
 }
-.header__descs-text{
-    font-family: var(--font-description);
+
+.header__descs-text {
+    font-family: var(--font-common);
     color: var(--secondary-color);
     font-size: 18px;
 }
+
+@media(max-width:990px) {
+    .header__nav-burger {
+        display: block;
+        position: absolute;
+        top: 34px;
+        right: 20px;
+        width: 30px;
+        height: 20px;
+        padding: 9px;
+        cursor: pointer;
+        z-index: 5;
+    }
+
+    .header__nav-burger span {
+        transform: scale(1);
+    }
+
+    .header__nav-burger span,
+    header__nav-burger::before,
+    header__nav-burger::after {
+        position: absolute;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background-color: var(--secondary-color);
+        transition: all 0.5 ease-in-out;
+    }
+
+    .header__nav-burger::before,
+    .header__nav-burger::after {
+        content: " ";
+    }
+
+    .header__nav-burger::before {
+        top: 0;
+    }
+
+    .header__nav-burger::after {
+        bottom: 0;
+    }
+}
+
 @media(min-width: 768px) {
-    header{
+    header {
         height: 920px;
         box-sizing: border-box;
     }
-    .header__name{
+
+    .header__name {
         font-size: 32px;
         text-align: center;
     }
+
     .header__nav {
         display: flex;
         padding-top: 25px;
@@ -251,51 +308,61 @@ header {
     }
 
     .header__menu {
-        flex-direction: row;
         display: flex;
+        flex-direction: row;
+        text-align: center;
     }
+
     .header__title {
         padding-top: 200px;
-        font-family: var(--font-description);
         font-size: 100px;
         color: var(--secondary-color);
     }
-    .header__text{
+
+    .header__text {
         font-size: 18px;
     }
+
     .header__member-button {
         padding: 16px 50px;
         font-size: 13px;
     }
-    .header__end{
+
+    .header__end {
         padding-left: 20px;
         padding-top: 35px;
         align-items: center;
         display: flex;
         flex-direction: row;
     }
-    .header__offices{
+
+    .header__offices {
         margin: 75px 20px 0 10px;
         width: 350px;
         height: 200px;
     }
-    .header__number-offices{
+
+    .header__number-offices {
         padding-top: 35px;
     }
-    .header__rooms{
+
+    .header__rooms {
         margin: 75px 30px 0 10px;
         width: 350px;
         height: 200px;
     }
-    .header__number-rooms{
+
+    .header__number-rooms {
         padding-top: 35px;
     }
-    .header__descs{
+
+    .header__descs {
         margin: 75px 30px 0 10px;
         width: 350px;
         height: 200px;
     }
-    .header__number-descs{
+
+    .header__number-descs {
         padding-top: 35px;
     }
 }
