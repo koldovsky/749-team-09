@@ -19,6 +19,7 @@
     font-weight: 600;
     padding-top: 0;
     padding-bottom: 15px;
+    margin-top: 20px;
 }
 
 .station__text__about {
@@ -55,11 +56,16 @@
     display: flex;
 }
 .station_button-about button {
+    font-family: var(--font-title);
     border: 2px solid var(--whychooseus-color-main);
     background-color: var(--secondary-color);
     color: var(--whychooseus-color-main);
-    font-size: 18px;
-    padding: 12px 25px;
+    font-size: 11px;
+    padding: 16px 32px;
     cursor: pointer;
     transition: all 0.3s ease;
+    border-radius: 20px;
+    margin: 50px 0 50px 0;
+    transition-duration: 0.4s;
+    width: 235px;
 }
