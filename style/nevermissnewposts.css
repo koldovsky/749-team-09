@@ -1,0 +1,86 @@
+.never-miss-new-posts {
+    background-image: var(--whychooseus-gradient), url(../img/brownoffice.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.never-miss-new-posts__inner {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.never-miss-new-posts__inner-form {
+    background: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.never-miss-new-posts__inner-form-item {
+    display: grid;
+}
+
+.never-miss-new-posts__inner-form-item-title {
+    padding-top: 30px;
+}
+
+.never-miss-new-posts__inner-form-item-title-text {
+    color: var(--title-color);
+    text-align: center;
+}
+
+.never-miss-new-posts__inner-form-item-title-devider.solid {
+    border-top: 5px solid var(--accent-color);
+    margin: 1rem auto;
+    width: 60px;
+}
+
+.never-miss-new-posts__inner-form-item-email {
+    font-family: var(--font-title);
+    color: var(--secondary-color);
+    background-color: var(--never-miss-new-posts-input-background-color);
+    border: none;
+    padding: 14px 0 14px 0;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 0 0 20px 0;
+}
+
+.never-miss-new-posts__inner-form-item-email[type="email"] {
+    padding-left: 25px;
+    font-size: 70%;
+}
+
+.never-miss-new-posts__inner-form-item-button {
+    font-family: var(--font-title);
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+    border: none;
+    padding: 14px 0 14px 0;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 0 0 50px 0;
+}
+
+.never-miss-new-posts__inner-form-item-button:hover {
+    color: var(--secondary-color);
+    background-color: var(--whychooseus-color-main);
+    transition: 0.3s;
+}
+
+@media (min-width: 768px) {
+    .never-miss-new-posts__inner {
+        display: grid;
+        grid-column-start: 2;
+        padding-right: 250px;
+        padding-left: 250px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .never-miss-new-posts__inner {
+        display: grid;
+        grid-column-start: 2;
+        padding-right: 350px;
+        padding-left: 350px;
+    }
+}
