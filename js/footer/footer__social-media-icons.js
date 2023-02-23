@@ -10,7 +10,7 @@
             class: 'footer__social-media-icons-facebook',
             link: 'https://www.facebook.com/',
             svgPicture: 'img/footer/social-media/facebook-icon.svg'
-        }, 
+        },
         {
             class: 'footer__social-media-icons-instagram',
             link: 'https://www.instagram.com/',
