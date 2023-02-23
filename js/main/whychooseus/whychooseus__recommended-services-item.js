@@ -34,17 +34,17 @@
         for (const service of services) {
             servicesConteiner.innerHTML += `
             <div class="whychooseus__recommended-services-item whychooseus__recommended-services-item-button">
-                        <div class="whychooseus__recommended-services-item-service">
-                            <div class="whychooseus__recommended-services-item-service-icon">
-                                <svg class="whychooseus__recommended-services-item-service-icon-svg">
-                                    <use href="${service.svgPicture}#icon"></use>
-                                </svg>
-                            </div>
-                            <div class="whychooseus__recommended-services-item-service-text">
-                                <h3>${service.name}</h3>
-                            </div>
-                        </div>
+                <div class="whychooseus__recommended-services-item-service">
+                    <div class="whychooseus__recommended-services-item-service-icon">
+                        <svg class="whychooseus__recommended-services-item-service-icon-svg">
+                            <use href="${service.svgPicture}#icon"></use>
+                        </svg>
                     </div>
+                    <div class="whychooseus__recommended-services-item-service-text">
+                         <h3>${service.name}</h3>
+                    </div>
+                </div>
+            </div>
             `;
         }
     }
