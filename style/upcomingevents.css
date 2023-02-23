@@ -89,7 +89,6 @@
     .upcoming-events__inner-events-item {
         display: flex;
         width: calc(140% / 3);
-        text-align: center;
     }
 }
 
