@@ -34,6 +34,14 @@
     background: var(--secondary-color);
 }
 
+.whychooseus__recommended-services-item {
+    cursor: pointer;
+}
+
+.whychooseus__recommended-services-item:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
 .whychooseus__recommended-services-item-service {
     text-align: center;
     display: flex;

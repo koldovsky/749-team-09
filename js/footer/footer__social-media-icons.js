@@ -24,7 +24,7 @@
 
         for (const icon of icons) {
             iconsConteiner.innerHTML += `
-            <a class="${icon.class} button" href="${icon.link}"
+            <a class="${icon.class} footer__social-media-icons-button" href="${icon.link}"
                             target="_blank">
                             <svg class="footer__social-media-icons-item-svg">
                                 <use href="${icon.svgPicture}#icon"></use>
