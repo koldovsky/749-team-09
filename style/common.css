@@ -11,7 +11,6 @@
 :root {
     --font-title: 'Montserrat', sans-serif;
     --font-common: 'Varela', sans-serif;
-    /* --font-discription */
     --common-font-size: 1rem;
     --h2-font-size-mobile: 2.2rem;
     --h2-font-size-tablet: 2.4rem;
@@ -24,26 +23,19 @@
     --whychooseus-color-main: rgb(85, 108, 213);
     --upcomingevents-background-color: #f7f8fa;
     --never-miss-new-posts-input-background-color: #e3e4e5;
-    /* why main */
     --secondary-color: #fff;
     --dark-accent-color: #556cd5;
     --link-hover-color: #2c7591;
     --title-color: #292d3a;
-    /* NEED TO CHANGE --text-color */
     --text-color: rgb(114, 120, 136);
-    /* NEED TO CHANGE --contacts-form-text-color: #717888; */
+    --light-background-color: #f7f7f7;
     --footer-color: #1c1f29;
     --box-shadow-color: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
     --contacts-filds-color: rgba(28, 31, 41, 0.12);
     --header-gradient: radial-gradient(rgba(85, 83, 112, 0.402), rgba(0, 0, 0, 0.58));
     --whychooseus-gradient: linear-gradient(to bottom, rgba(91, 114, 211, 0.6), rgb(91, 114, 211, 1));
     --footer-gradient: linear-gradient(to bottom, rgba(37, 40, 47, 0.6), rgba(28, 31, 41, 1) 40%);
-    --dark-accent-text-color: #556cd5;
-    /* TO REMOVE */
-    --h3-contacts-title-font-size: 1.4rem;
-    /* TO REMOVE */
-    --h3-contacts-font-size: 1rem;
-    /* TO REMOVE */
+    
 }
 
 .container {
@@ -77,6 +69,7 @@ h4 {
 p {
     font-family: var(--font-common);
     font-size: var(--common-font-size);
+    line-height: 1.8;
     color: var(--text-color);
 }
 

@@ -1,4 +1,10 @@
+.partners {
+    padding-top: 85px;
+    padding-bottom: 90px;
+    background-color: var(--light-background-color);
+}
 .partners__title {
+    color: var(--title-color);
     text-align: center;
     margin-bottom: 60px;
 }
@@ -8,14 +14,15 @@
     grid-template-columns: auto;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .partners__list > div {
     padding: 30px;
-    margin: 0 15px 30px;
     max-width: 400px;
     box-shadow: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
     border-radius: 8px;
+    background: #fff;
 }
 
 .partners__list img {
@@ -37,5 +44,11 @@
 @media screen and (min-width: 992px) {
     .partners__list { 
         grid-template-columns: repeat(6, auto);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .partners {
+        padding: 85px 15px 100px;
     }
 }
