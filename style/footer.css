@@ -37,6 +37,31 @@
     font-family: var(--font-description);
 }
 
+.footer__social-media-icons-button {
+    display: inline-block;
+    border: 0.8px solid var(--secondary-color);
+    text-decoration: none;
+    padding: 8px;
+    line-height: 0;
+    border-radius: 50%;
+    background-color: var(--footer-color);
+    border-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.footer__social-media-icons-button:hover {
+    border-color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    transition: 0.2s;
+}
+
+.footer__social-media-icons-button:hover .footer__social-media-icons-item-svg {
+    border-color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    fill: var(--footer-color);
+    transition: 0.4s;
+}
+
 .footer__social-media-icons-item-svg {
     width: 26px;
     height: 26px;

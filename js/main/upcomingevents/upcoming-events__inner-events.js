@@ -34,7 +34,7 @@
 
         for (const event of events) {
             eventsConteiner.innerHTML += `
-            <div class="upcoming-events__inner-events-item">
+            <div class="upcoming-events__inner-events-item upcoming-events__inner-events-item-button">
                         <div class="upcoming-events__inner-events-item-event">
                             <div class="upcoming-events__inner-events-item-event-image">
                                 <img class="upcoming-events__inner-events-item-event-image-item"
