@@ -1,5 +1,7 @@
 .space__offer {
-    background: linear-gradient(#07070cb1, #0e0534e0), url(../img/space_team/space_background.webp);
+    background: url(../img/space_team/space_background.webp);
+    background-color: rgba(40, 40, 57, 0.796);
+    background-blend-mode: multiply;
     background-attachment: fixed;
     background-position: 50% 90%;
     background-size: cover;
