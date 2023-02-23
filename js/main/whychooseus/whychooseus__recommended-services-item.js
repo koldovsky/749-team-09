@@ -27,7 +27,7 @@
         },
     ];
 
-    function renderIcons(services) {
+    function renderService(services) {
         const servicesConteiner = document.querySelector('.whychooseus__recommended-services');
         servicesConteiner.innerHTML = '';
 
@@ -49,6 +49,6 @@
         }
     }
 
-    renderIcons(services);
+    renderService(services);
 
 })();
