@@ -95,12 +95,14 @@
                 <img class="station__photo" src="img/welcome__icons/welcome__image.png" alt="station photo">
                 <h2 class="station__title">Welcome to The Station!</h2>
                 <div class="divider divider--main"></div>
+                <div class="text-container">
                 <p class="station__text__about">The Station is spacious and the best coworking space in the very heart
                     of London. We offer luxury
                     offices designed to feel like home and to fit your unique needs. Besides the practical side, we've
                     created an environment where your inner creativity will inspire you to work more productively.
                     We welcome relentless entrepreneurs, artists, freelancers, and startups to work under one roof!
                 </p>
+            </div>
             </div>
             <div class="social-networks">
                 <a class="social-networks-twitter button" href="https://twitter.com/" target="_blank">
@@ -215,29 +217,14 @@
             <div class="team__title">
                 <h2 class="team__title-text">Our Team</h2>
                 <div class="divider divider--main"></div>
-                <div class="team__wrapper">
-                    <div class="team__wrapper-item">
-                        <div class="team__ceo">
-                            <img class="team__ceo-photo photo" src="img/space_team/ceo.jpg" alt="ceo photo">
-                            <h3 class="team__ceo-name name">Andrew Shimmer</h3>
-                            <span class="team__ceo-position position">CEO</span>
-                        </div>
-                    </div>
-                    <div class="team__wrapper-item">
-                        <div class="team__marketing">
-                            <img class="team__marketing-photo photo" src="img/space_team/marketing.jpg"
-                                alt="marketing photo">
-                            <h3 class="team__marketing-name name">Ann Maisner</h3>
-                            <span class="team__marketing-position position">Marketing Director</span>
-                        </div>
-                    </div>
-                    <div class="team__wrapper-item">
-                        <div class="team__manager">
-                            <img class="team__manager-photo photo" src="img/space_team/manager.jpg" alt="manager photo">
-                            <h3 class="team__manager-name name">Tomas Abbar</h3>
-                            <span class="team__manager-position position">Product Manager</span>
-                        </div>
-                    </div>
+                <div class="team__carousel">
+                    <button class="team-carousel__prev"><svg viewBox="0 0 306 306">
+                            <path d="M247.35 270.3L130.05 153l117.3-117.3L211.65 0l-153 153 153 153z"></path>
+                        </svg></button>
+                    <div class="team__wrapper"></div>
+                    <button class="team-carousel__next"><svg viewBox="0 0 306 306">
+                            <path d="M94.35 0l-35.7 35.7L175.95 153 58.65 270.3l35.7 35.7 153-153z"></path>
+                        </svg></button>
                 </div>
             </div>
         </section>
@@ -581,6 +568,7 @@
     <script src="js/testimonials_carousel.js"></script>
     <script src="js/footer/footer__social-media-icons.js"></script>
     <script src="js/main/whychooseus/whychooseus__recommended-services-item.js"></script>
+    <script src="js/main/team/team-carousel.js"></script>
     <script src="js/main/upcomingevents/upcoming-events__inner-events.js"></script>
     <script src="js/form_title_update.js"></script>
     <script src="js/form_validation.js"></script>
