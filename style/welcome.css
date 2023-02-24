@@ -15,11 +15,12 @@
 }
 
 .station__title {
-    font-size: var(--h2-font-size-mobile);
+    font-size: 34px;
     font-weight: 600;
     padding-top: 0;
     padding-bottom: 15px;
     margin-top: 20px;
+    line-height: 40.8px;
 }
 
 .station__text__about {
