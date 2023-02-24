@@ -1,10 +1,8 @@
 .social-networks *:not(.social-networks-item-svg) {
     margin-bottom: 10px;
     background-color: var(--secondary-color);
-    border-color: var(--whychooseus-color-main);
+    border-color: var(--whychooseus-color-main); 
 }
-
-
 .welcome_station {
     background: url(https://res2.weblium.site/res/5cb5ed415c879c002458deb0/5cb7301f7b0ced0023a0ee52.webp);
     padding-top: 90px;
@@ -34,22 +32,45 @@
     line-height: 28.8px;
     overflow-wrap: break-word;
     text-align: center;
-    vertical-align: baseline;
     margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-wrap: break-word;
+}
+
+.text-container {
+    max-width: 770px;
+    margin: 0 auto;
 }
 .social-networks {
     margin-top: 30px;
 }
-
+.social-networks a {
+    margin-right: 10px;
+}
 .social-networks-item-svg {
-    width: 26px;
-    height: 26px;
+    width: 20px;
+    height: 20px;
     fill: var(--whychooseus-color-main);
     background-color: var(--secondary-color);
-    display: flex;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   background-color: transparent;
+   transition: all 0.3s ease;
+}
+.social-networks a:hover {
+    background-color:var(--whychooseus-color-main);
+    border-color: var(--whychooseus-color-main);
+}
+.social-networks a:hover svg {
+    fill: #fff;
 }
 .station_button-about {
-    display: flex;
+    display: flex;    
     justify-content: center;
     margin-top: 30px;
 }
@@ -69,4 +90,9 @@
     margin: 50px 0 50px 0;
     transition-duration: 0.4s;
     width: 235px;
+    transition: all 0.3s ease;
 }
+/*.station_button-about:hover {
+    background-color: var(--whychooseus-color-main);
+    color: #fff;
+}*/
