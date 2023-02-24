@@ -33,7 +33,7 @@
 
         for (const service of services) {
             servicesConteiner.innerHTML += `
-            <div class="whychooseus__recommended-services-item whychooseus__recommended-services-item-button">
+            <div class="whychooseus__recommended-services-item">
                 <div class="whychooseus__recommended-services-item-service">
                     <div class="whychooseus__recommended-services-item-service-icon">
                         <svg class="whychooseus__recommended-services-item-service-icon-svg">
