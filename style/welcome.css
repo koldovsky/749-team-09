@@ -3,6 +3,10 @@
     background-color: var(--secondary-color);
     border-color: var(--whychooseus-color-main); 
 }
+.station__photo-container {
+padding-left: 24px;
+padding-right: 24px;
+}
 .welcome_station {
     background: url(https://res2.weblium.site/res/5cb5ed415c879c002458deb0/5cb7301f7b0ced0023a0ee52.webp);
     padding-top: 90px;
