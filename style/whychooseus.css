@@ -42,6 +42,14 @@
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
+.whychooseus__recommended-services-item {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.whychooseus__recommended-services-item-scale {
+    transform: scale(2);
+}
+
 .whychooseus__recommended-services-item-service {
     text-align: center;
     display: flex;
