@@ -1,4 +1,3 @@
-
 (()=>{
   function changeFormTitle(){
     const formHeader = document.querySelector('.contacts__form-header');

@@ -20,7 +20,7 @@ footer {
     color: var(--secondary-color);
 }
 
-.contacts__open-cat-fact-modal{
+.contacts__open-cat-fact-modal {
     top: -60px;
     opacity: 0.9;
     color: var(--secondary-color);
@@ -49,7 +49,7 @@ footer {
     width: 80%; 
   }
 
-  .contacts__modal-close{
+  .contacts__modal-close {
     color: var(--text-color);
     float: right;
     font-size: 28px;
