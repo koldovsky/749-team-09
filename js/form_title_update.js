@@ -8,5 +8,5 @@
     else formHeader.innerText =  'Join Our Coworking Community!';
   }
   
-  setInterval(changeFormTitle, 3000);
+  setInterval(changeFormTitle, 5000);
 })()

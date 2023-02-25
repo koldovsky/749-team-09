@@ -478,6 +478,13 @@
         <!-- Section 9. Contacts form. Developed by Yurii Smolii. Start -->
         <section class="contacts container" id="contacts">
             <div class="contacts__location">
+                <button class="contacts__open-cat-fact-modal">Do you want to know something new about cats?</button>
+                <div class="contacts_opened-modal">
+                    <div class="contacts__modal-content">
+                        <span class="contacts__modal-close">&times;</span>
+                        <p class="contacts__modal-text"></p>
+                    </div>
+                </div>
                 <h2 class="contacts__header">Contacts</h2>
                 <div class="contacts__header-under-line divider divider--secondary"></div>
                 <div class="contacts__address">
@@ -503,7 +510,7 @@
                         style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-            <form id="form" class="contacts__form" action="/some-server">
+            <form id="form" class="contacts__form" action="https://formspree.io/f/xqkoqvwp" method="post">
                 <h3 class="contacts__form-header">Join Our Coworking Community!</h3>
                 <p class="contacts__form-description">Fill in the form below and book a free tour.</p>
 
@@ -574,6 +581,7 @@
     <script src="js/main/upcomingevents/upcoming-events__inner-events.js"></script>
     <script src="js/form_title_update.js"></script>
     <script src="js/form_validation.js"></script>
+    <script src="js/meowfacts.js"></script>
     <script src="js/main/whychooseus/trysomethingnew.js"></script>
     <script src="js/main/whychooseus/again.js"></script>
     
