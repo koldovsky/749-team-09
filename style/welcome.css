@@ -75,13 +75,13 @@ padding-right: 40px;
     fill: #fff;
 }
 .station_button-about {
-    display: flex;    
+    display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 30px;
-}
+  }
 .station_button-about form {
     display: flex;
-   
 }
 .station_button-about button {
     font-family: var(--font-title);
@@ -95,7 +95,7 @@ padding-right: 40px;
     border-radius: 20px;
     margin: 50px 0;
     width: 235px;
-}
+  }
 .station_button-about button:hover {
     background-color: var(--whychooseus-color-main);
     color: #fff;
