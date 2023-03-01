@@ -10,7 +10,7 @@
         selectedItem.style.transition = 'transform 0.5s ease-out';
         selectedItem.style.transform = 'none';
         setTimeout(() => {
-          selectedItem.style.transition = '';
+          
           selectedItem = null;
         }, 500);
       } else {
@@ -19,7 +19,7 @@
           selectedItem.style.transition = 'transform 0.5s ease-out';
           selectedItem.style.transform = 'none';
           setTimeout(() => {
-            selectedItem.style.transition = '';
+            
           }, 500);
         }
         selectedItem = item;
@@ -32,7 +32,7 @@
         selectedItem.style.transition = 'transform 0.5s ease-out';
         selectedItem.style.transform = `translate(${translateX}px, ${translateY}px) scale(3.5)`;
         setTimeout(() => {
-          selectedItem.style.transition = '';
+          
         }, 500);
       }
     });
