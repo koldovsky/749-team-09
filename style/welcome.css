@@ -4,8 +4,8 @@
     border-color: var(--whychooseus-color-main); 
 }
 .station__photo-container {
-padding-left: 24px;
-padding-right: 24px;
+padding-left: 40px;
+padding-right: 40px;
 }
 .welcome_station {
     background: url(https://res2.weblium.site/res/5cb5ed415c879c002458deb0/5cb7301f7b0ced0023a0ee52.webp);
@@ -17,12 +17,13 @@ padding-right: 24px;
 }
 
 .station__title {
-    font-size: 34px;
+    font-size: 39px;
     font-weight: 600;
     padding-top: 0;
     padding-bottom: 15px;
     margin-top: 20px;
     line-height: 40.8px;
+    color: #292d3a;
 }
 
 .station__text__about {
@@ -80,10 +81,11 @@ padding-right: 24px;
 }
 .station_button-about form {
     display: flex;
+   
 }
 .station_button-about button {
     font-family: var(--font-title);
-    border: 2px solid var(--whychooseus-color-main);
+    border: 1px solid var(--whychooseus-color-main);
     background-color: var(--secondary-color);
     color: var(--whychooseus-color-main);
     font-size: 11px;
@@ -91,12 +93,10 @@ padding-right: 24px;
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 20px;
-    margin: 50px 0 50px 0;
-    transition-duration: 0.4s;
+    margin: 50px 0;
     width: 235px;
-    transition: all 0.3s ease;
 }
-/*.station_button-about:hover {
+.station_button-about button:hover {
     background-color: var(--whychooseus-color-main);
     color: #fff;
-}*/
+}
