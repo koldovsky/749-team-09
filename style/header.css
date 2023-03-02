@@ -8,37 +8,10 @@ header {
 
 .header__contacts {
     display: none;
-    flex-direction: row;
-    font-family: var(--font-common);
-    color: var(--secondary-color);
-    font-size: 12px;
-    text-align: center;
-}
-
-.header__address {
-    display: none;
-    padding-top: 8px;
-}
-
-.header__number {
-    display: none;
-    color: var(--secondary-color);
-    padding-top: 8px;
-    margin-left: 420px;
 }
 
 .header__media {
     display: none;
-    margin-left: 395px;
-    padding-top: 8px;
-}
-
-.header__media-facebook {
-    padding-right: 5px;
-}
-
-.header__media-instagram {
-    padding-right: 5px;
 }
 
 .header__nav {
@@ -68,6 +41,7 @@ header {
     text-decoration: none;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    margin: 20px 0px 20px 0px;
 }
 
 .header__menu-about:hover {
@@ -276,39 +250,77 @@ header {
     }
 
     .header__nav-burger {
-        display: block;
+        display: flex;
+        align-items: center;
+        width: 24px;
+        height: 16px;
         position: relative;
-        width: 30px;
-        height: 20px;
-        padding: 12px;
         cursor: pointer;
+        z-index: 22;
+    }
+
+    .header__burger-menu-wraper {
+        padding: 12px;
+    }
+
+    .header__burger-menu-item {
+        background-color: var(--secondary-color);
+        position: absolute;
+        height: 2px;
+        width: 100%;
+    }
+
+    .header__nav-burger::before {
+        background-color: var(--secondary-color);
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        content: " ";
+        top: 0px;
+    }
+
+    .header__nav-burger::after {
+        background-color: var(--secondary-color);
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        content: " ";
+        top: 14px;
     }
 
     .header__nav-burger span,
-    .header__nav-burger::before,
-    .header__nav-burger::after {
+    .header__nav-burger::after,
+    .header__nav-burger::before {
         position: absolute;
         left: 0;
         height: 2px;
         width: 100%;
         background-color: var(--secondary-color);
+        transition: all 0.5s ease-in-out;
     }
 
-    .header__nav-burger::before,
-    .header__nav-burger::after {
-        content: " ";
+    .header__nav-burger span {
+        transform: scale(1);
     }
 
-    .header__nav-burger::before {
-        top: 0;
+    .header__nav-burger.active span {
+        transform: scale(0);
     }
 
-    .header__nav-burger::after {
-        bottom: 0;
+    .header__nav-burger.active::before {
+        top: 7px;
+        transform: rotate(-225deg);
+    }
+
+    .header__nav-burger.active::after {
+        top: 7px;
+        transform: rotate(225deg);
     }
 
     .header__nav,
     .header__menu {
+        transition: top 0.3s ease-in;
+        transition: top 0.3s ease-in 0.1s;
         top: -100%;
         left: 0;
         width: 100%;
@@ -335,128 +347,171 @@ header {
         background-color: #1c1f29;
     }
 
-}
-
-@media(min-width: 991px) {
-    header {
-        height: 970px;
-        box-sizing: border-box;
+    .header__menu>li {
+        margin: 10px 5px;
     }
 
-    .header__name {
-        font-size: 32px;
-        text-align: center;
-    }
 
-    .header__nav {
-        display: flex;
-        padding-top: 25px;
-    }
-
-    .header__contacts {
-        display: flex;
-    }
-
-    .header__address {
-        display: flex;
-    }
-
-    .header__number {
-        display: flex;
-    }
-
-    .header__media {
-        display: flex;
-    }
-
-    .header__nav {
-        display: flex;
-    }
-
-    .header__menu {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-    }
-
-    .header__menu-about {
-        margin-left: 280px;
-        padding-right: 30px;
-    }
-
-    .header__menu-plans {
-        padding-right: 30px;
-    }
-
-    .header__menu-events {
-        padding-right: 30px;
-    }
-
-    .header__menu-testimonial {
-        padding-right: 30px;
-    }
-
-    .header__menu-spaces {
-        padding-right: 30px;
-    }
-
-    .header__menu-blog {
-        padding-right: 30px;
-    }
-
-    .header__title {
-        padding-top: 200px;
-        font-size: 100px;
-        color: var(--secondary-color);
-    }
-
-    .header__text {
-        font-size: 18px;
-    }
-
-    .header__member-button {
-        font-size: 13px;
-    }
-
-    .header__end {
-        padding-left: 20px;
-        padding-top: 15px;
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .header__divider {
-        margin: 0 133px 0 133px;
-    }
-
-    .header__offices {
-        margin: 0px 20px 0 0px;
-        width: 340px;
-        height: 220px;
-    }
-
-    .header__number-offices {
-        padding-top: 15px;
-    }
-
-    .header__rooms {
-        margin: 0 20px 0 20px;
-        width: 340px;
-        height: 220px;
-    }
-
-    .header__number-rooms {
-        padding-top: 15px;
-    }
-
-    .header__descs {
-        margin: 0 20px 0 20px;
-        width: 340px;
-        height: 220px;
-    }
-
-    .header__number-descs {
-        padding-top: 15px;
+    body.lock {
+        overflow: hidden;
     }
 }
+
+    @media(min-width: 991px) {
+        header {
+            height: 970px;
+            box-sizing: border-box;
+        }
+
+        .header__contacts {
+            display: flex;
+            flex-direction: row;
+            font-family: var(--font-common);
+            color: var(--secondary-color);
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .header__media {
+            display: flex;
+            margin-left: 395px;
+            padding-top: 8px;
+        }
+
+        .header__media-facebook {
+            padding-right: 5px;
+        }
+
+        .header__media-instagram {
+            padding-right: 5px;
+        }
+
+        .header__address {
+            display: none;
+            padding-top: 8px;
+        }
+
+        .header__number {
+            display: none;
+            color: var(--secondary-color);
+            padding-top: 8px;
+            margin-left: 420px;
+        }
+
+        .header__name {
+            font-size: 32px;
+            text-align: center;
+        }
+
+        .header__nav {
+            display: flex;
+            padding-top: 25px;
+        }
+
+        .header__contacts {
+            display: flex;
+        }
+
+        .header__address {
+            display: flex;
+        }
+
+        .header__number {
+            display: flex;
+        }
+
+        .header__media {
+            display: flex;
+        }
+
+        .header__nav {
+            display: flex;
+        }
+
+        .header__menu {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+        }
+
+        .header__menu-about {
+            margin-left: 280px;
+            padding-right: 30px;
+        }
+
+        .header__menu-plans {
+            padding-right: 30px;
+        }
+
+        .header__menu-events {
+            padding-right: 30px;
+        }
+
+        .header__menu-testimonial {
+            padding-right: 30px;
+        }
+
+        .header__menu-spaces {
+            padding-right: 30px;
+        }
+
+        .header__menu-blog {
+            padding-right: 30px;
+        }
+
+        .header__title {
+            padding-top: 200px;
+            font-size: 100px;
+            color: var(--secondary-color);
+        }
+
+        .header__text {
+            font-size: 18px;
+        }
+
+        .header__member-button {
+            font-size: 13px;
+        }
+
+        .header__end {
+            padding-left: 20px;
+            padding-top: 15px;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .header__divider {
+            margin: 0 133px 0 133px;
+        }
+
+        .header__offices {
+            margin: 0px 20px 0 0px;
+            width: 340px;
+            height: 220px;
+        }
+
+        .header__number-offices {
+            padding-top: 15px;
+        }
+
+        .header__rooms {
+            margin: 0 20px 0 20px;
+            width: 340px;
+            height: 220px;
+        }
+
+        .header__number-rooms {
+            padding-top: 15px;
+        }
+
+        .header__descs {
+            margin: 0 20px 0 20px;
+            width: 340px;
+            height: 220px;
+        }
+
+        .header__number-descs {
+            padding-top: 15px;
+        }
+    }

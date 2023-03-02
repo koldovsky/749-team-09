@@ -32,10 +32,12 @@
             <nav class="header__nav">
                 <div class="header__nav-container">
                     <a class="header__name" href="#">The Statoin</a>
+                    <div class="header__nav-burger-wraper active"></div>
                     <div class="header__nav-burger">
-                        <span></span>
+                        <span class="header__burger-menu-item"></span>
                     </div>
                 </div>
+
                 <ul class="header__menu">
                     <li class="header__menu-item">
                         <a href="#about" class="header__menu-about">About us</a>
@@ -44,7 +46,7 @@
                         <a href="#Plans&Pricing" class="header__menu-plans">Plans&Pricing</a>
                     </li>
                     <li class="header__menu-item">
-                        <a href="#" class="header__menu-events">Events</a>
+                        <a href="#events" class="header__menu-events">Events</a>
                     </li>
                     <li class="header__menu-item">
                         <a href="#testimonials" class="header__menu-testimonial">Testimonials</a>
@@ -92,19 +94,21 @@
         <!-- Section 2. Welcome to the station. Developed by Shkimba Yurii. Start -->
         <section class="welcome_station station" id="about">
             <div class="station_about">
-            <div class="station__photo-container">
-                <img class="station__photo" src="img/welcome__icons/welcome__image.png" alt="station photo">
-            </div>
+                <div class="station__photo-container">
+                    <img class="station__photo" src="img/welcome__icons/welcome__image.png" alt="station photo">
+                </div>
                 <h2 class="station__title">Welcome to The Station!</h2>
                 <div class="divider divider--main"></div>
                 <div class="text-container">
-                <p class="station__text__about">The Station is spacious and the best coworking space in the very heart
-                    of London. We offer luxury
-                    offices designed to feel like home and to fit your unique needs. Besides the practical side, we've
-                    created an environment where your inner creativity will inspire you to work more productively.
-                    We welcome relentless entrepreneurs, artists, freelancers, and startups to work under one roof!
-                </p>
-            </div>
+                    <p class="station__text__about">The Station is spacious and the best coworking space in the very
+                        heart
+                        of London. We offer luxury
+                        offices designed to feel like home and to fit your unique needs. Besides the practical side,
+                        we've
+                        created an environment where your inner creativity will inspire you to work more productively.
+                        We welcome relentless entrepreneurs, artists, freelancers, and startups to work under one roof!
+                    </p>
+                </div>
             </div>
             <div class="social-networks">
                 <a class="social-networks-twitter button" href="https://twitter.com/" target="_blank">
@@ -325,7 +329,7 @@
         <!-- Section 5. What our membership includs. Developed by Yana Melnichenko. End -->
 
         <!-- Section Upcoming Events. Developed by team 9. Start -->
-        <section class="upcoming-events">
+        <section class="upcoming-events" id="events">
             <div class="upcoming-events__inner container">
                 <div class="upcoming-events__inner-title">
                     <h2 class="upcoming-events__inner-title-text">Upcoming Events</h2>
@@ -542,7 +546,7 @@
                 <nav class="footer__nav">
                     <div class="footer__nav-column">
                         <a class="footer__nav-column-item" href="#about">About</a>
-                        <a class="footer__nav-column-item" href="#">Events</a>
+                        <a class="footer__nav-column-item" href="#events">Events</a>
                         <a class="footer__nav-column-item" href="#blog">Blog</a>
                     </div>
                     <div class="footer__nav-column">
@@ -574,6 +578,7 @@
 
     </footer>
     <script src="js/burger.js"></script>
+    <script src="js/main/team/sliders.js"></script>
     <script src="js/testimonials_carousel.js"></script>
     <script src="js/footer/footer__social-media-icons.js"></script>
     <script src="js/main/whychooseus/whychooseus__recommended-services-item.js"></script>
@@ -583,7 +588,7 @@
     <script src="js/form_validation.js"></script>
     <script src="js/meowfacts.js"></script>
     <script src="js/main/whychooseus/whychooseus-animation.js"></script>
-    
+
 </body>
 
 </html>
