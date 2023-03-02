@@ -59,7 +59,8 @@
 }
 
 .upcoming-events__inner-events-item-button:hover {
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;}
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 
 .upcoming-events__inner-button {
     padding: 40px 0 80px 0;

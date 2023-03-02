@@ -32,6 +32,11 @@
 .whychooseus__recommended-services-item {
     padding: 35px 0 35px 0;
     background: var(--secondary-color);
+    cursor: pointer;
+}
+
+.whychooseus__recommended-services-item:hover {
+    box-shadow: rgb(18, 24, 31) 0px 20px 30px -10px;
 }
 
 .whychooseus__recommended-services-item-service {
@@ -51,28 +56,82 @@
     fill: var(--whychooseus-color-main);
 }
 
+.whychooseus__recommended-services-item-service-description {
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.whychooseus__recommended-services-item .whychooseus__recommended-services-item-service-description {
+    display: none;
+}
+
+.whychooseus__recommended-services-item.active .whychooseus__recommended-services-item-service-description {
+    display: block;
+}
+
 @media (min-width: 768px) {
     .whychooseus__recommended-services {
-        padding: 0 40px 0 40px;
-        background: transparent;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-        padding-bottom: 80px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .whychooseus__recommended-services-item {
+        grid-column: span 1;
+    }
+
+    .whychooseus__recommended-services-item-service-description {
+        text-align: left;
+    }
+
+    .whychooseus__recommended-services-item .whychooseus__recommended-services-item-service-description {
+        display: none;
+    }
+
+    .whychooseus__recommended-services-item.active .whychooseus__recommended-services-item-service-description {
+        display: block;
+    }
+
+    .whychooseus__recommended-services-item.active {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+        order: 0;
+        height: auto;
+    }
+
+    .whychooseus__recommended-services-item.is-inactive {
+        grid-column: span 1;
     }
 }
 
 @media (min-width: 992px) {
-    .whychooseus__recommended-services-item {
-        background-size: auto;
+    .whychooseus__recommended-services {
+        grid-template-columns: repeat(3, 1fr);
     }
 
-    .whychooseus__recommended-services {
-        padding: 0 40px 0 40px;
-        background: transparent;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 30px;
-        padding-bottom: 80px;
+    .whychooseus__recommended-services-item {
+        background-size: auto;
+        grid-column: span 1;
+    }
+
+    .whychooseus__recommended-services-item-service-description {
+        text-align: left;
+    }
+
+    .whychooseus__recommended-services-item .whychooseus__recommended-services-item-service-description {
+        display: none;
+    }
+
+    .whychooseus__recommended-services-item.active .whychooseus__recommended-services-item-service-description {
+        display: block;
+    }
+
+    .whychooseus__recommended-services-item.active {
+        grid-column: 1 / span 3;
+        grid-row: 1;
+        order: 0;
+        height: auto;
+    }
+
+    .whychooseus__recommended-services-item.is-inactive {
+        grid-column: span 1;
     }
 }
