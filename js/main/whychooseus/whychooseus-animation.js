@@ -4,22 +4,22 @@
   let selectedItem = null;
 
   recommendedServicesItems.forEach((item) => {
-    item.addEventListener('mousedown', (event) => {
+    item.addEventListener('mousedown', () => {
       if (selectedItem === item) {
         selectedItem.classList.remove('is-scaled');
-        selectedItem.style.transition = 'transform 0.5s ease-out';
+        selectedItem.style.transition = 'transform 0.3s ease-out';
         selectedItem.style.transform = 'none';
         setTimeout(() => {
-          
+          selectedItem.style.transition = '';
           selectedItem = null;
         }, 500);
       } else {
         if (selectedItem) {
           selectedItem.classList.remove('is-scaled');
-          selectedItem.style.transition = 'transform 0.5s ease-out';
+          selectedItem.style.transition = 'transform 0.3s ease-out';
           selectedItem.style.transform = 'none';
           setTimeout(() => {
-            
+            selectedItem.style.transition = '';
           }, 500);
         }
         selectedItem = item;
@@ -29,10 +29,10 @@
         const centerY = window.innerHeight / 2;
         const translateX = centerX - rect.left - rect.width / 2;
         const translateY = centerY - rect.top - rect.height / 2;
-        selectedItem.style.transition = 'transform 0.5s ease-out';
-        selectedItem.style.transform = `translate(${translateX}px, ${translateY}px) scale(3.5)`;
+        selectedItem.style.transition = 'transform 0.3s ease-out';
+        selectedItem.style.transform = `translate(${translateX}px, ${translateY}px) scale(2)`;
         setTimeout(() => {
-          
+          selectedItem.style.transition = '';
         }, 500);
       }
     });
