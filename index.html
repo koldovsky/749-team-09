@@ -95,12 +95,17 @@
         <section class="welcome_station station" id="about">
             <div class="station_about">
                 <div class="station__photo-container">
+                    <div class="language-buttons">
+                        <button onclick="switchLanguage('italian')" id="italian-btn">It</button>
+                        <button onclick="switchLanguage('polish')" id="polish-btn">Pl</button>
+                        <button onclick="switchLanguage('english')" id="english-btn">Eng</button>
+                    </div>
                     <img class="station__photo" src="img/welcome__icons/welcome__image.png" alt="station photo">
                 </div>
-                <h2 class="station__title">Welcome to The Station!</h2>
+                <h2 class="station__title" id="station-title">Welcome to The Station!</h2>
                 <div class="divider divider--main"></div>
                 <div class="text-container">
-                    <p class="station__text__about">The Station is spacious and the best coworking space in the very
+                    <p class="station__text__about" id="station-text">The Station is spacious and the best coworking space in the very
                         heart
                         of London. We offer luxury
                         offices designed to feel like home and to fit your unique needs. Besides the practical side,
@@ -134,6 +139,7 @@
                     <button type="submit" name="button-info">MORE ABOUT COWORKING</button>
                 </form>
             </div>
+            <script src="js/main/welcome/change_language.js"></script>
         </section>
         <!-- Section 2. Welcome to the station. Developed by Shkimba Yurii. Finish -->
 
