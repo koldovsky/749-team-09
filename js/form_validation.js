@@ -64,7 +64,7 @@
     submitButton.disabled = true;
     submitButton.style.backgroundColor = "gray";
   }
-  
+
   function resetInputErrorStyle(resetStyleInputWithFailedValidation) {
     resetStyleInputWithFailedValidation.style.color = "black";
     resetStyleInputWithFailedValidation.style.border = "";
