@@ -156,17 +156,45 @@
         <!-- Section Why choose us. Developed by team 9. Finish -->
 
         <!--Section 3. Our Spaces and Plans & Pricing.Developed by Yuliia Shyshka. Start-->
-        <section class="ourspaces" id="ourspaces">
-            <div class="ourspaces__examples">
-                <h2> Our spaces</h2>
-                <img class="blackoffice" src="img/blackoffice.png" width="200" alt="black office">
-                <img class="brownoffice" src="img/brownoffice.png" width="200" alt="brown office">
-                <img class="greenoffice" src="img/greenoffice.png" width="200" alt="green office">
-                <img class="singleoffice" src="img/singleoffice.png" width="200" alt="single office">
-                <img class="officechairs" src="img/officechairs.png" width="200" alt="office chairs">
-                <img class="whiteoffice" src="img/whiteoffice.png" width="200" alt="white office">
+        <section class="our__spaces">
+            <div class="our__spaces_section">
+              <h2 class="our__spaces_title">Our spaces</h2>
             </div>
-        </section>
+            <div class="divider divider--main"></div>
+            <div class="our__spaces_slider container">
+              <div class="spaces_slider">
+                <button class="spaces__slider_btn_left">❮</button>
+                <div class="spaces__slider_wrapper"></div>
+                <button class="spaces__slider_btn_right">❯</button>
+              </div>
+              <div class="spaces__slider-nav">
+                <div class="spaces__nav_item"><img src="img/blackoffice.png" alt="black office"></div>
+                <div class="spaces__nav_item"><img src="img/brownoffice.png" alt="brown  office"></div>
+                <div class="spaces__nav_item"><img src="img/officechairs.png" alt="office chairs"></div>
+                <div class="spaces__nav_item"><img src="img/greenoffice.png" alt="green office"></div>
+                <div class="spaces__nav_item"><img src="img/whiteoffice.png" alt="white office"></div>
+                <div class="spaces__nav_item"><img src="img/singleoffice.png" alt="single office"></div>
+              </div>
+            </div>
+              <!--Modal for our-spaces-slider-->
+              <div class="spaces__slider_modal">
+                <div class="spaces__modal_form">
+                  <div class="spaces__form_toolbar">
+                    <ul class="spaces__toolbar">
+                      <li class="spaces__toolbar_items">
+                      </li>
+                      <li class="spaces__toolbar_items">
+                        <button type="button" class="items__close" aria-label="Items close">&times;</button>
+                      </li>
+                    </ul>
+                    <button class="spaces__btn_left">❮</button>
+                    <div class="spaces__wrapper_modal">
+                    </div>
+                    <button class="spaces__btn_right">❯</button>
+                  </div>
+                </div>
+              </div>
+            </section>
         <section class="plansandpricing" id="PlansPricing">
             <div class="plansandpricing__title">
                 <h2 class="plansandpricing__title-text">Plans & Pricing</h2>
@@ -594,6 +622,7 @@
     <script src="js/form_validation.js"></script>
     <script src="js/meowfacts.js"></script>
     <script src="js/main/whychooseus/whychooseus-animation.js"></script>
+    <script src="js/ourspaces_carousel.js"></script>
 
 </body>
 
