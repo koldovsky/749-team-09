@@ -34,7 +34,6 @@
 .blog-coworking__photo {
     object-fit: cover;
     height: 136.438px;
-    overflow: clip;
 }
 
 .blog-coworking__text-info {
@@ -67,7 +66,7 @@
 .blog-freshfood__topic {
     font-family: var(--font-title);
     padding: 0px 0px 20px;
-    line-height: 31.999px;
+    line-height: 31.998px;
     font-size: 22px;
 
 }
