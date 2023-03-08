@@ -1,8 +1,8 @@
 .blog-info {
     border-radius: 14px;
-    display: flex;
+    height: 147px;
     width: 100%;
-    height: auto;
+    object-fit: cover;
 }
 
 .blog {
@@ -29,11 +29,6 @@
 .blog-coworking__text {
     text-align: left;
     margin: 50px 0px 0px;
-}
-
-.blog-coworking__photo {
-    object-fit: cover;
-    height: 136.438px;
 }
 
 .blog-coworking__text-info {
@@ -72,8 +67,6 @@
 }
 
 .blog-freshfood__photo {
-    object-fit: cover;
-    height: 136.438px;
     margin: 50px 0px 50px;
 }
 
@@ -112,8 +105,6 @@
 }
 
 .blog-coworking-space__photo {
-    object-fit: cover;
-    height: 136.438px;
     margin: 50px 0px 50px;
 }
 
@@ -166,8 +157,7 @@
 
 @media (min-width: 768px) {
     .blog-info {
-        width: 470px;
-        height: 214px;
+
     }
 
     .blog-coworking {
@@ -177,7 +167,7 @@
     }
 
     .blog-coworking__text {
-        margin: 0px -300px 0px;
+        /*  margin: 0px -300px 0px; */
     }
 
     .blog-freshfood {
@@ -188,7 +178,7 @@
 
     .blog-freshfood__text {
         padding: 35px 0px;
-        margin: 0px -300px 0px;
+        /*    margin: 0px -300px 0px; */
     }
 
     .blog-coworking-space {
@@ -199,10 +189,10 @@
 
     .blog-coworking-space__text {
         padding: 6px 0px;
-        margin: 0px -300px 0px;
+        margin: auto;
     }
 
-    .blog-coworking__photo {
+    /* .blog-coworking__photo {
         float: left;
         margin: 0px 40px 50px;
     }
@@ -215,9 +205,7 @@
     .blog-coworking-space__photo {
         float: left;
         margin: 0px 40px 50px;
-    }
+    } */
 
-    .blog-button {
-        padding: 60px 650px 0px;
-    }
+    .blog-button {}
 }
