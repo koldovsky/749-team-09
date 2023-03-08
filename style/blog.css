@@ -1,8 +1,9 @@
-.blog-info {
+.photo-info {
     border-radius: 14px;
-    height: 147px;
-    width: 100%;
+    height: 50vw;
+    width: 86vw;
     object-fit: cover;
+    margin: auto;
 }
 
 .blog {
@@ -26,9 +27,9 @@
     font-size: 22px;
 }
 
-.blog-coworking__text {
-    text-align: left;
-    margin: 50px 0px 0px;
+.blog-coworking__photo {
+    margin: auto;
+    margin-top: 40px;
 }
 
 .blog-coworking__text-info {
@@ -67,7 +68,8 @@
 }
 
 .blog-freshfood__photo {
-    margin: 50px 0px 50px;
+    margin: auto;
+    margin-top: 40px;
 }
 
 .blog-freshfood__text-info {
@@ -105,7 +107,8 @@
 }
 
 .blog-coworking-space__photo {
-    margin: 50px 0px 50px;
+    margin: auto;
+    margin-top: 40px;
 }
 
 .blog-coworking-space__text-info {
@@ -156,56 +159,34 @@
 }
 
 @media (min-width: 768px) {
-    .blog-info {
+    .text-to-task {
+        overflow: hidden;
+        width: 45vw;
+        padding: 40px;
+    }
 
+    .text-to-task p {
+        margin: 0;
+    }
+
+    .photo-info {
+        border-radius: 14px;
+        height: 14vw;
+        width: 30vw;
+        float: left;
+        margin-right: 10px;
+        margin-left: 100px;
     }
 
     .blog-coworking {
-        width: 60%;
-        display: block;
-        margin: 0px 100px 0px;
-    }
-
-    .blog-coworking__text {
-        /*  margin: 0px -300px 0px; */
+        overflow: auto;
     }
 
     .blog-freshfood {
-        width: 60%;
-        display: block;
-        margin: 0px 100px 0px;
-    }
-
-    .blog-freshfood__text {
-        padding: 35px 0px;
-        /*    margin: 0px -300px 0px; */
+        overflow: auto;
     }
 
     .blog-coworking-space {
-        width: 60%;
-        display: block;
-        margin: 0px 100px 0px;
+        overflow: auto;
     }
-
-    .blog-coworking-space__text {
-        padding: 6px 0px;
-        margin: auto;
-    }
-
-    /* .blog-coworking__photo {
-        float: left;
-        margin: 0px 40px 50px;
-    }
-
-    .blog-freshfood__photo {
-        float: left;
-        margin: 0px 40px 50px;
-    }
-
-    .blog-coworking-space__photo {
-        float: left;
-        margin: 0px 40px 50px;
-    } */
-
-    .blog-button {}
 }
