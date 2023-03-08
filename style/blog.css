@@ -34,6 +34,7 @@
 .blog-coworking__photo {
     object-fit: cover;
     height: 136.438px;
+    overflow: clip;
 }
 
 .blog-coworking__text-info {
@@ -161,47 +162,63 @@
 
 .blog-button__text:hover {
     background-color: var(--dark-accent-color);
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
     .blog-info {
-        width: 280px;
+        width: 470px;
+        height: 214px;
     }
 
     .blog-coworking {
         width: 60%;
         display: block;
-        margin: 0 auto;
+        margin: 0px 100px 0px;
+    }
+
+    .blog-coworking__text {
+        margin: 0px -300px 0px;
     }
 
     .blog-freshfood {
         width: 60%;
         display: block;
-        margin: 0 auto;
+        margin: 0px 100px 0px;
+    }
+
+    .blog-freshfood__text {
+        padding: 35px 0px;
+        margin: 0px -300px 0px;
     }
 
     .blog-coworking-space {
         width: 60%;
         display: block;
-        margin: 0 auto;
+        margin: 0px 100px 0px;
+    }
+
+    .blog-coworking-space__text {
+        padding: 6px 0px;
+        margin: 0px -300px 0px;
     }
 
     .blog-coworking__photo {
         float: left;
-        margin: 0px 0px 50px;
+        margin: 0px 40px 50px;
     }
 
     .blog-freshfood__photo {
         float: left;
-        margin: 0px 0px 50px;
+        margin: 0px 40px 50px;
     }
 
     .blog-coworking-space__photo {
         float: left;
-        margin: 0px 0px 50px;
+        margin: 0px 40px 50px;
     }
 
-    .blog-link {
-        margin-left: 280px;
+    .blog-button {
+        padding: 60px 650px 0px;
     }
 }
