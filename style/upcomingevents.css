@@ -56,6 +56,9 @@
 
 .upcoming-events__inner-events-item-button {
     cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
 }
 
 .upcoming-events__inner-events-item-button:hover {
