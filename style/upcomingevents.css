@@ -34,6 +34,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .upcoming-events__inner-events-item * :not(.upcoming-events__inner-events-item-event-image-item) {
@@ -50,19 +51,44 @@
     font-size: 90%;
 }
 
+.upcoming-events__inner-events-item-event-info-date {
+    color: var(--whychooseus-color-main);
+    font-family: var(--font-title);
+    font-size: 90%;
+}
+
 .upcoming-events__inner-events-item-event-info-type-devider {
     color: var(--main-color);
 }
 
-.upcoming-events__inner-events-item-button {
-    cursor: pointer;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+.upcoming-events__inner-events-item-event-modal-window {
+    padding: 1em;
+    max-width: 50ch;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
 }
 
-.upcoming-events__inner-events-item-button:hover {
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+.upcoming-events__inner-events-item-event-modal-window-style {
+    display: grid;
+}
+
+.upcoming-events__inner-events-item-event-button {
+    font-family: var(--font-title);
+    color: var(--secondary-color);
+    background-color: var(--whychooseus-color-main);
+    border: none;
+    padding: 14px 0 14px 0;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.upcoming-events__inner-events-item-event-button:hover {
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+    transition: 0.3s;
 }
 
 .upcoming-events__inner-button {

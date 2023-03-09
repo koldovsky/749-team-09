@@ -95,12 +95,18 @@
         <section class="welcome_station station" id="about">
             <div class="station_about">
                 <div class="station__photo-container">
+                    <div class="language-buttons">
+                        <button onclick="switchLanguage('italian')" id="italian-btn">It</button>
+                        <button onclick="switchLanguage('polish')" id="polish-btn">Pl</button>
+                        <button onclick="switchLanguage('english')" id="english-btn">Eng</button>
+                    </div>
                     <img class="station__photo" src="img/welcome__icons/welcome__image.png" alt="station photo">
                 </div>
-                <h2 class="station__title">Welcome to The Station!</h2>
+                <h2 class="station__title" id="station-title">Welcome to The Station!</h2>
                 <div class="divider divider--main"></div>
                 <div class="text-container">
-                    <p class="station__text__about">The Station is spacious and the best coworking space in the very
+                    <p class="station__text__about" id="station-text">The Station is spacious and the best coworking
+                        space in the very
                         heart
                         of London. We offer luxury
                         offices designed to feel like home and to fit your unique needs. Besides the practical side,
@@ -134,6 +140,7 @@
                     <button type="submit" name="button-info">MORE ABOUT COWORKING</button>
                 </form>
             </div>
+            <script src="js/main/welcome/change_language.js"></script>
         </section>
         <!-- Section 2. Welcome to the station. Developed by Shkimba Yurii. Finish -->
 
@@ -150,15 +157,43 @@
         <!-- Section Why choose us. Developed by team 9. Finish -->
 
         <!--Section 3. Our Spaces and Plans & Pricing.Developed by Yuliia Shyshka. Start-->
-        <section class="ourspaces" id="ourspaces">
-            <div class="ourspaces__examples">
-                <h2> Our spaces</h2>
-                <img class="blackoffice" src="img/blackoffice.png" width="200" alt="black office">
-                <img class="brownoffice" src="img/brownoffice.png" width="200" alt="brown office">
-                <img class="greenoffice" src="img/greenoffice.png" width="200" alt="green office">
-                <img class="singleoffice" src="img/singleoffice.png" width="200" alt="single office">
-                <img class="officechairs" src="img/officechairs.png" width="200" alt="office chairs">
-                <img class="whiteoffice" src="img/whiteoffice.png" width="200" alt="white office">
+        <section class="our__spaces" id="ourspaces">
+            <div class="our__spaces_section">
+                <h2 class="our__spaces_title">Our spaces</h2>
+            </div>
+            <div class="divider divider--main"></div>
+            <div class="our__spaces_slider container">
+                <div class="spaces_slider">
+                    <button class="spaces__slider_btn_left">❮</button>
+                    <div class="spaces__slider_wrapper"></div>
+                    <button class="spaces__slider_btn_right">❯</button>
+                </div>
+                <div class="spaces__slider-nav">
+                    <div class="spaces__nav_item"><img src="img/blackoffice.png" alt="black office"></div>
+                    <div class="spaces__nav_item"><img src="img/brownoffice.png" alt="brown  office"></div>
+                    <div class="spaces__nav_item"><img src="img/officechairs.png" alt="office chairs"></div>
+                    <div class="spaces__nav_item"><img src="img/greenoffice.png" alt="green office"></div>
+                    <div class="spaces__nav_item"><img src="img/whiteoffice.png" alt="white office"></div>
+                    <div class="spaces__nav_item"><img src="img/singleoffice.png" alt="single office"></div>
+                </div>
+            </div>
+            <!--Modal for our-spaces-slider-->
+            <div class="spaces__slider_modal">
+                <div class="spaces__modal_form">
+                    <div class="spaces__form_toolbar">
+                        <ul class="spaces__toolbar">
+                            <li class="spaces__toolbar_items">
+                            </li>
+                            <li class="spaces__toolbar_items">
+                                <button type="button" class="items__close" aria-label="Items close">&times;</button>
+                            </li>
+                        </ul>
+                        <button class="spaces__btn_left">❮</button>
+                        <div class="spaces__wrapper_modal">
+                        </div>
+                        <button class="spaces__btn_right">❯</button>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="plansandpricing" id="PlansPricing">
@@ -588,6 +623,7 @@
     <script src="js/form_validation.js"></script>
     <script src="js/meowfacts.js"></script>
     <script src="js/main/whychooseus/whychooseus-animation.js"></script>
+    <script src="js/ourspaces_carousel.js"></script>
     <script src="js/main/upcomingevents/upcoming-events-open-info.js"></script>
 
 </body>

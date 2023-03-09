@@ -69,6 +69,14 @@
     display: block;
 }
 
+.whychooseus__recommended-services-item.is-inactive {
+    opacity: 50%;
+}
+
+.whychooseus__recommended-services-item.is-inactive:hover {
+    opacity: 100%;
+}
+
 @media (min-width: 768px) {
     .whychooseus__recommended-services {
         grid-template-columns: repeat(2, 1fr);
@@ -99,6 +107,11 @@
 
     .whychooseus__recommended-services-item.is-inactive {
         grid-column: span 1;
+        opacity: 50%;
+    }
+
+    .whychooseus__recommended-services-item.is-inactive:hover {
+        opacity: 100%;
     }
 }
 
@@ -133,5 +146,10 @@
 
     .whychooseus__recommended-services-item.is-inactive {
         grid-column: span 1;
+        opacity: 50%;
+    }
+
+    .whychooseus__recommended-services-item.is-inactive:hover {
+        opacity: 100%;
     }
 }

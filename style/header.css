@@ -291,10 +291,6 @@ header {
     .header__nav-burger span,
     .header__nav-burger::after,
     .header__nav-burger::before {
-        position: absolute;
-        left: 0;
-        height: 2px;
-        width: 100%;
         background-color: var(--secondary-color);
         transition: all 0.5s ease-in-out;
     }
@@ -342,7 +338,6 @@ header {
         justify-content: start;
         align-items: center;
         padding-top: 100px;
-        height: 100vh;
         font-size: 15px;
         background-color: #1c1f29;
     }
