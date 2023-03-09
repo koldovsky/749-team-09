@@ -19,30 +19,32 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.plansandpricing__wrapper-item {
+@media(min-width: 272px){
+    .plansandpricing__wrapper-item {
     margin-top: 15px;
     margin: 15px;
     padding: 20px 20px;
     text-align: center;
     background: var(--secondary-color);
     border-radius: 6px;
-    min-width: 272px;
-    width: 272px;
+    width: 358px;
     min-height:auto;
-    box-shadow: var(--box-shadow-color);
-   height: 486.825px;
-}
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   height: 488.825px;
+   display: flex;
+   flex-wrap: wrap;
+}}
 .desk__title{
 font-size: 24px;
 color: rgb(41, 45, 48);
 font-weight: 600;
 font-family:var(--font-title);
+line-height: 60px;
 }
 .desk__price{
     color: rgb(245,93,74);
     font-size: 18px;
     font-weight: 700;
-    line-height: 32.04px;
 }
 .desk__text{
     font-size: 16px;
