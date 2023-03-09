@@ -19,30 +19,32 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.plansandpricing__wrapper-item {
+@media(min-width: 272px){
+    .plansandpricing__wrapper-item {
     margin-top: 15px;
     margin: 15px;
     padding: 20px 20px;
     text-align: center;
     background: var(--secondary-color);
     border-radius: 6px;
-    min-width: 272px;
-    width: 272px;
+    width: 358px;
     min-height:auto;
-    box-shadow: var(--box-shadow-color);
-   height: 486.825px;
-}
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   height: 488.825px;
+   display: flex;
+   flex-wrap: wrap;
+}}
 .desk__title{
 font-size: 24px;
 color: rgb(41, 45, 48);
 font-weight: 600;
 font-family:var(--font-title);
+line-height: 60px;
 }
 .desk__price{
     color: rgb(245,93,74);
     font-size: 18px;
     font-weight: 700;
-    line-height: 32.04px;
 }
 .desk__text{
     font-size: 16px;
@@ -50,4 +52,34 @@ font-family:var(--font-title);
     display:inline;
     line-height: 28.8px;
     text-align: center;
+}
+.plansandpricing__button-text{
+    text-decoration: none;
+    color: var(--whychooseus-color-main);
+    font-family: var(--font-title);
+    font-size: 13.2px;
+    font-weight: 500;
+    padding: 1.00rem;
+    text-align: center;
+    border: 1px solid var(--whychooseus-color-main);
+}
+.button__pricing {
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    line-height: 21.12px;
+    width: 224.038px;
+    height: 53.1125px;
+    border-radius: 10rem;
+    border-width: 1px;
+    text-align: center;
+}
+
+.button__pricing:hover {
+    color: var(--secondary-color);
+    border-color: var(--whychooseus-color-main);
+    background-color: var(--whychooseus-color-main);
+    transition: 0.3s;
 }

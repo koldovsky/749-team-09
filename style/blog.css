@@ -1,8 +1,9 @@
-.blog-info {
+.photo-info {
     border-radius: 14px;
-    display: flex;
-    width: 100%;
-    height: auto;
+    height: 50vw;
+    width: 86vw;
+    object-fit: cover;
+    margin: auto;
 }
 
 .blog {
@@ -26,14 +27,9 @@
     font-size: 22px;
 }
 
-.blog-coworking__text {
-    text-align: left;
-    margin: 50px 0px 0px;
-}
-
 .blog-coworking__photo {
-    object-fit: cover;
-    height: 136.438px;
+    margin: auto;
+    margin-top: 40px;
 }
 
 .blog-coworking__text-info {
@@ -66,15 +62,14 @@
 .blog-freshfood__topic {
     font-family: var(--font-title);
     padding: 0px 0px 20px;
-    line-height: 31.999px;
+    line-height: 31.998px;
     font-size: 22px;
 
 }
 
 .blog-freshfood__photo {
-    object-fit: cover;
-    height: 136.438px;
-    margin: 50px 0px 50px;
+    margin: auto;
+    margin-top: 40px;
 }
 
 .blog-freshfood__text-info {
@@ -112,9 +107,8 @@
 }
 
 .blog-coworking-space__photo {
-    object-fit: cover;
-    height: 136.438px;
-    margin: 50px 0px 50px;
+    margin: auto;
+    margin-top: 40px;
 }
 
 .blog-coworking-space__text-info {
@@ -161,47 +155,38 @@
 
 .blog-button__text:hover {
     background-color: var(--dark-accent-color);
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
-    .blog-info {
-        width: 280px;
+    .text-to-task {
+        overflow: hidden;
+        width: 45vw;
+        padding: 40px;
+    }
+
+    .text-to-task p {
+        margin: 0;
+    }
+
+    .photo-info {
+        border-radius: 14px;
+        height: 14vw;
+        width: 30vw;
+        float: left;
+        margin-right: 10px;
+        margin-left: 100px;
     }
 
     .blog-coworking {
-        width: 60%;
-        display: block;
-        margin: 0 auto;
+        overflow: auto;
     }
 
     .blog-freshfood {
-        width: 60%;
-        display: block;
-        margin: 0 auto;
+        overflow: auto;
     }
 
     .blog-coworking-space {
-        width: 60%;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .blog-coworking__photo {
-        float: left;
-        margin: 0px 0px 50px;
-    }
-
-    .blog-freshfood__photo {
-        float: left;
-        margin: 0px 0px 50px;
-    }
-
-    .blog-coworking-space__photo {
-        float: left;
-        margin: 0px 0px 50px;
-    }
-
-    .blog-link {
-        margin-left: 280px;
+        overflow: auto;
     }
 }
